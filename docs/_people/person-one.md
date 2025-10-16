@@ -1,9 +1,9 @@
 ---
 layout: person
-first-name: One
-name: Person One
-role: Person One's Role
-department: P1 Dept
+first-name: Emmi
+name: Emmi Russo
+role: PhD Student
+department: Information School
 ---
 
-About Person One
+Emmi is awesome!
