@@ -1,0 +1,11 @@
+{% assign project = include.project %}
+{% capture timeline %} {{ project.start-date | date: "%Y" }} - {{ project.end-date | date: "%Y" | default: "Present" }} {% endcapture %}
+
+<div class="card p-1 m-1" style="width: 22rem;">
+    <img class="card-img-top img-fluid" style="height: 12rem;" src="{{ '/assets/img/purple.jpg' | relative_url }}"  alt="A purple square.">
+    <div class="card-body">
+        <h5 class="card-title">{{ include.project.name }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ timeline }}</h6>
+        <a href="{{ include.project.url | relative_url }}" class="card-link">Learn more</a>
+      </div>
+</div>

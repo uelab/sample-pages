@@ -1,0 +1,23 @@
+{% assign recent_papers = include.values | reverse %}
+
+<div class="container-fluid mt-5">
+    {% if include.landing %}
+    <h3 class="section-header text-center p-2">{{ include.header }}</h3>
+    {% else %}
+    <h3 class="section-header p-2">{{ include.header }}</h3>
+    {% endif %}
+    <div class="row">
+        {% for value in recent_papers limit:include.limit %}
+        <div class="col col-xs-12 col-sm-6 col-md-4 ">
+            {% include paper-card.html paper=value %}
+        </div>
+        {% endfor %}
+    </div>
+    {% if include.landing %}
+    <div class="row">
+        <div class="col-lg-12 py-2 px-5 d-flex justify-content-end">
+            <a href="{{ "/publications.html" | relative_url }}">See All Papers ></a>
+        </div>
+      </div>
+    {% endif %}
+</div>

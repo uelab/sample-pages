@@ -1,0 +1,12 @@
+domain: alt-thompson.github.io
+url: https://alt-thompson.github.io
+baseurl: /sample-pages
+
+collections:
+  people:
+    output: true
+  projects:
+    output: true
+  publications:
+  news:
+    output: true

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="container-fluid p-5 bg-info text-white">
+    <h1>{{ page.title }}</h1>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <h3 class="section-header">{{ page.name }}</h3>    
+            <p>{{ content | markdownify }}</p>
+            
+            <h3 class="section-header mt-5">Projects</h3>
+            <p>TODO: Add projects grid</p>
+            <h3 class="section-header mt-5">Papers</h3>
+            <p>TODO: Add papers grid</p>
+        </div>
+        <div class="col-lg-4">
+            <h6 class="section-header">Recent News about {{page.first-name}}</h6>
+            <p>TODO: Related News</p>
+        </div>
+    </div>
+
+</div>
+  

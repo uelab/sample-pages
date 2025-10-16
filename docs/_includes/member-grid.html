@@ -1,0 +1,10 @@
+<div class="container-fluid mt-4 px-5">
+    <h3 class="section-header">{{ include.header }}</h3>
+    <div class="row row-cols-auto">
+        {% for value in include.values %}
+        <div class="col">
+            {% include member-card.html member=value %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

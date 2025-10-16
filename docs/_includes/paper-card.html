@@ -1,0 +1,40 @@
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img class="img-fluid rounded-start" style="height: 100%;" src="{{ '/assets/img/blue.jpg' | relative_url }}">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{include.paper.title}}</h5>
+          <p class="card-text">
+            {% for author-id in include.paper.authors %}
+            {% assign author = site.people | where_exp: "item", "item.slug == author-id" | first %}
+            <a href="{{ author.url | relative_url }}">{{author.name}}</a>
+            {% endfor %}
+          </p>
+          <p class="card-text"><small class="text-body-secondary">{{include.paper.venue}}</small></p>
+          <p class="card-text"><small class="text-body-tertiary">
+            keywords: {% for keyword in include.paper.keywords %}{{keyword}} {% endfor %}
+          </small></p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text">
+            
+            <small class="text-body-tertiary">
+              <a href="{{ include.paper.download-link }}">PDF</a>
+            </small> 
+            |
+            <small class="text-body-tertiary">
+              <a href="{{ include.paper.citation }}">TODO: Citation pop-up</a>
+            </small> 
+            |
+            <small class="text-body-tertiary">
+            {% assign project = site.projects | where_exp: "item", "item.slug == include.paper.project" | first %}
+            <a href="{{ project.url | relative_url }}">{{project.name}}</a>
+            </small>
+
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,30 @@
+<!-- {% assign section = include.section | capitalize %}
+{% assign section_data = site.data.nav-bar | where: "name", section %}
+{% assign page_link = section_data | map: "link" | first| relative_url %}
+
+<div class="container-fluid">
+    <h1 class="section-header">Recent {{ section }}</h1>
+
+    <ul>
+        {% for value in include.values limit:3 %}
+          <li>
+            <p>{{ value.title }}</p>
+            <p>{{ value.timeline }}</p>
+            <p>{{ value.content | markdownify }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+
+    <div class="row justify-content-end">
+      <div class="col-xs-12 see-all-artifacts">
+        <div class="col-xs-12" style="display:none"></div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 see-all-artifacts pull-right">
+          <a href="{{ page_link }}">SEE ALL {{ include.section | upcase }} ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="see-all-link">
+      <a href="{{ page_link }}">SEE ALL {{ include.section | upcase }} ></a>
+    </div>
+  </div> -->

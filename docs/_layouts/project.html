@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% capture timeline %} {{ page.start-date | date: "%Y" }} - {{ page.end-date | date: "%Y" | default: "Present" }} {% endcapture %}
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+    <h1>{{ page.title }}</h1>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-9">
+            <h3 class="section-header">Project Description</h3>    
+            <p>{{ content | markdownify }}</p>
+            <h3 class="section-header mt-5">Publications</h3>
+            <p>TODO: Add publication grid</p>
+        </div>
+        <div class="col-lg-3">
+            <h6 class="section-header">Date</h6>
+            <p>{{ timeline }}</p>
+            <h6 class="section-header">Project Lead</h6>
+            {% assign lead = site.people | where_exp: "item", "item.slug == page.lead" | first %}
+            <p><a href={{ lead.url | relative_url }}>{{lead.name}}</a></p>
+            <h6 class="section-header">Sponsor</h6>
+            {% for sponsor-id in page.sponsors %}
+            {% assign sponsor = site.people | where_exp: "item", "item.slug == sponsor-id" | first %}
+            <p><a href={{ sponsor.url | relative_url }}>{{sponsor.name}}</a></p>
+            {% endfor %}
+            <h6 class="section-header">Related News</h6>
+            <p>TODO: Related News</p>
+            <h6 class="section-header">Related Projects</h6>
+            <p>TODO: Related Projects</p>
+        </div>
+    </div>
+
+</div>
