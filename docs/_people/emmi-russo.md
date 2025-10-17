@@ -6,4 +6,4 @@ role: PhD Student
 department: Information School
 ---
 
-Emmi is awesome!
+About Emmi
