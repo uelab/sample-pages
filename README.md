@@ -26,6 +26,12 @@ The file structure is roughly as follows:
     └───_site          // static site files currently being served
 ```
 
+The file structure is largely dictated by Jekyll.  To learn more about the following directories, you can reference these docs pages in the Jekyll documentation:
+- `_data`: see https://jekyllrb.com/docs/datafiles/
+- `_includes`: see https://jekyllrb.com/docs/includes/
+- `_layouts`: see https://jekyllrb.com/docs/layouts/
+- `_site`: see https://jekyllrb.com/docs/structure/
+
 ## FAQ
 
 ### How can I get set up to contribute to the site?
