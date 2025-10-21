@@ -27,10 +27,10 @@ The file structure is roughly as follows:
 ```
 
 The file structure is largely dictated by Jekyll.  To learn more about the following directories, you can reference these docs pages in the Jekyll documentation:
+- `assets` and `_site`: see https://jekyllrb.com/docs/structure/
 - `_data`: see https://jekyllrb.com/docs/datafiles/
 - `_includes`: see https://jekyllrb.com/docs/includes/
 - `_layouts`: see https://jekyllrb.com/docs/layouts/
-- `_site`: see https://jekyllrb.com/docs/structure/
 
 ## FAQ
 
