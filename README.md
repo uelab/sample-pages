@@ -32,6 +32,10 @@ The file structure is largely dictated by Jekyll.  To learn more about the follo
 - `_includes`: see https://jekyllrb.com/docs/includes/
 - `_layouts`: see https://jekyllrb.com/docs/layouts/
 
+### Data model
+
+The data files held in directories like `_people` and `_projects` provide the content used to render the pages according to the templates defined in `_includes` and `_layouts`.  They describe the people involved in the User Empowerment Lab and all the cool stuff they're working on!  The site's data model is the set of properties each of the objects (people, projects, etc.) has, and how they're related to each other.  
+
 ## FAQ
 
 ### How can I get set up to contribute to the site?
