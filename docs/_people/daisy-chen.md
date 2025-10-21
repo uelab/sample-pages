@@ -1,7 +1,7 @@
 ---
 layout: person
 first-name: Daisy
-name: Chen
+name: Daisy Chen
 role: PhD Student
 department: Information School
 ---
