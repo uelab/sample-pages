@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home | Organization Name
+title: Home | User Empowerment Lab
 ---
 
 {% include about.html %}
