@@ -1,8 +1,9 @@
 ---
 layout: person
 first-name: Daisy
-name: Chen
+name: Daisy Chen
 role: PhD Student
+graduation-year: 2028
 department: Information School
 ---
 
