@@ -1,7 +1,7 @@
 ---
 title: "Go Go Games: Therapeutic Video Games for Children with Autism Spectrum Disorders"
-authors: [alexis-hiniker]
-venue: Testing known person
+authors: [alexis-hiniker, joy-wong-daniels]
+venue: Testing unknown person
 keywords: [keyword-one, keyword-two]
 download-link: #
 citation: #
