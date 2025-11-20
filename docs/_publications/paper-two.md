@@ -1,5 +1,5 @@
 ---
-title: Paper Two Title
+title: Go Go Games: Therapeutic Video Games for Children with Autism Spectrum Disorders
 authors: [person-one, person-two]
 venue: Proceedings of XYZ
 keywords: [keyword-one, keyword-two]
