@@ -10,7 +10,7 @@
 
         {% for value in research_areas limit:include.limit %}
         <div class="col-lg-3 d-flex justify-content-center">
-            {% include research-area-card.html project=value %}
+            {% include research-area-card.html research-area=value %}
             
         </div>
         {% endfor %}
