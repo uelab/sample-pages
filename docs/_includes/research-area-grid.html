@@ -1,4 +1,4 @@
-{% assign recent_projects = include.values | reverse %}
+{% assign recent_research_areas = include.values | reverse %}
 
 <div class="container-fluid mt-5">
     {% if include.landing %}
@@ -8,9 +8,9 @@
     {% endif %}
     <div class="row">
 
-        {% for value in recent_projects limit:include.limit %}
+        {% for value in recent_research_areas limit:include.limit %}
         <div class="col-lg-3 d-flex justify-content-center">
-            {% include project-card.html project=value %}
+            {% include research-area-card.html project=value %}
             
         </div>
         {% endfor %}
@@ -18,7 +18,7 @@
     {% if include.landing %}
     <div class="row">
         <div class="col-lg-12 py-2 px-5 d-flex justify-content-end">
-            <a href="{{ "/projects.html" | relative_url }}">See All Projects ></a>
+            <a href="{{ "/research-area.html" | relative_url }}">See All Research Areas></a>
         </div>
       </div>
     {% endif %}

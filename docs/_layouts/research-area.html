@@ -15,7 +15,7 @@ layout: default
             <p>{{ content | markdownify }}</p>
             <h3 class="section-header mt-5">Publications</h3>
             {% for paper-id in page.papers %}
-            {% assign paper = site.papers | where_exp: "item", "item.slug == paper-id"%}
+            {% assign paper = site.papers | where_exp: "item", "item.research-areas Contains page.slug"%}
             <p><a href={{ paper.url | relative_url }}>{{paper.title}}</a></p>
             {% endfor %}
         </div>

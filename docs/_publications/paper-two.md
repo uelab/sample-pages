@@ -5,6 +5,6 @@ venue: Testing date
 keywords: [Autism, ASD, Behavioral Therapy, PRT, Pivotal Response Therapy, Video Games, Game Design, Education]
 download-link: https://faculty.washington.edu/alexisr/GoGoGames.pdf
 citation: #
-project: [project-one, kids-games]
+research-areas: [project-one, kids-games]
 date: 2013-01-01
 ---
