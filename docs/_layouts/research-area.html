@@ -14,10 +14,11 @@ layout: default
             <h3 class="section-header">Project Description</h3>    
             <p>{{ content | markdownify }}</p>
             <h3 class="section-header mt-5">Publications</h3>
-            {% for paper-id in page.papers %}
-            {% assign paper = site.papers | where_exp: "item", "item.research-areas Contains page.slug"%}
-            <p><a href={{ paper.url | relative_url }}>{{paper.title}}</a></p>
-            {% endfor %}
+            {% for publication in site.publications %}
+                {% if publication.research-areas contains page.slug %}
+                    {% include paper-card.html paper=publication %}
+                {% endif %}
+            {% endfor}
         </div>
         <div class="col-lg-3">
             <h6 class="section-header">Date</h6>
@@ -32,10 +33,6 @@ layout: default
             {% endfor %}
             <h6 class="section-header">Related News</h6>
             <p>TODO: Related News</p>
-            <h6 class="section-header">Publications</h6>
         </div>
-    </div>
-    <div class="row">
-        <p>{% include paper-grid.html header="Related Publications" values=site.publications limit=3 landing=true %}</p>
     </div>
 </div>
