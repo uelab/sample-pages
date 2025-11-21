@@ -14,7 +14,10 @@ layout: default
             <h3 class="section-header">Project Description</h3>    
             <p>{{ content | markdownify }}</p>
             <h3 class="section-header mt-5">Publications</h3>
-            <p>TODO: Add publication grid</p>
+            {% for paper-id in page.papers %}
+            {% assign paper = site.papers | where_exp: "item", "item.slug == paper-id"%}
+            <p><a href={{ paper.url | relative_url }}>{{paper.title}}</a></p>
+            {% endfor %}
         </div>
         <div class="col-lg-3">
             <h6 class="section-header">Date</h6>
