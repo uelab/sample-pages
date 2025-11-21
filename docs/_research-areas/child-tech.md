@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Video Games and Kids
+name: Children's Technology
 date: 2020-01-01
 ---
 

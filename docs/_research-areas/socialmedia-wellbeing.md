@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Video Games and Kids
+name: Social Media and Human Wellbeing
 date: 2020-01-01
 ---
 

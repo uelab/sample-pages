@@ -1,7 +1,6 @@
 ---
 layout: research-area
-name: Video Games and Kids
+name: Technology and Parenting
 date: 2020-01-01
 ---
 
-Kids' gaming content

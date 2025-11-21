@@ -7,9 +7,13 @@
         <div class="card-body">
           <h5 class="card-title">{{include.paper.title}}</h5>
           <p class="card-text">
-            {% for author-id in include.paper.authors %}
-            {% assign author = site.people | where_exp: "item", "item.slug == author-id" | first %}
-            <a href="{{ author.url | relative_url }}">{{author.name}}</a>
+            {% for authorid in include.paper.authors %}
+              {% assign labauthor = site.people | where_exp: "item", "item.slug == authorid" | first %}
+              {% if labauthor != nil %}
+                <a href="{{ labauthor.url | relative_url }}">{{labauthor.name}}</a>
+              {% else %}
+                {{authorid}}
+              {% endif %}
             {% endfor %}
           </p>
           <p class="card-text"><small class="text-body-secondary">{{include.paper.venue}}</small></p>

@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Video Games and Kids
+name: Screentime Tools and Parental Controls
 date: 2020-01-01
 ---
 
