@@ -5,6 +5,6 @@ venue: Proceedings of XYZ
 keywords: [keyword-one, keyword-two]
 download-link: #
 citation: #
-project: project-one
+research-area: project-one
 date: 2023-01-01
 ---
