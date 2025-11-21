@@ -5,7 +5,7 @@ venue: "Human Factors in Computing Systems (CHI), 2014"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/GoGoGames.pdf
 citation: #
-research-areas: [family-tech]
+research-areas: [family-tech, socialmedia-wellbeing]
 publicationtype: conference
 doi: 
 materials:
