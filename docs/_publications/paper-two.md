@@ -6,5 +6,5 @@ keywords: [Autism, ASD, Behavioral Therapy, PRT, Pivotal Response Therapy, Video
 download-link: https://faculty.washington.edu/alexisr/GoGoGames.pdf
 citation: #
 project: [project-one, kids-games]
-date: 2013
+date: 2013-01-01
 ---

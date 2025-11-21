@@ -5,7 +5,7 @@ baseurl: /sample-pages
 collections:
   people:
     output: true
-  projects:
+  research-areas:
     output: true
   publications:
   news:
