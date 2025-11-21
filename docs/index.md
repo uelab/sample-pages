@@ -5,7 +5,7 @@ title: Home | User Empowerment Lab
 
 {% include about.html %}
 
-{% include project-grid.html header="Recent Projects" values=site.projects limit=4 landing=true %}
+{% include research-area-grid.html header="Research Areas" values=site.research-areas landing=true %}
 
 {% include paper-grid.html header="Recent Papers" values=site.publications limit=3 landing=true %}
 
