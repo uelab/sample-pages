@@ -32,9 +32,10 @@ layout: default
             {% endfor %}
             <h6 class="section-header">Related News</h6>
             <p>TODO: Related News</p>
-            <h6 class="section-header">Related Projects</h6>
-            <p>TODO: Related Projects</p>
+            <h6 class="section-header">Publications</h6>
         </div>
     </div>
-
+    <div class="row">
+        <p>{% include paper-grid.html header="Related Publications" values=site.publications limit=3 landing=true %}</p>
+    </div>
 </div>
