@@ -1,4 +1,4 @@
-{% assign recent_research_areas = include.values | reverse %}
+{% assign research_areas = include.values | reverse %}
 
 <div class="container-fluid mt-5">
     {% if include.landing %}
@@ -8,7 +8,7 @@
     {% endif %}
     <div class="row">
 
-        {% for value in recent_research_areas limit:include.limit %}
+        {% for value in research_areas limit:include.limit %}
         <div class="col-lg-3 d-flex justify-content-center">
             {% include research-area-card.html project=value %}
             

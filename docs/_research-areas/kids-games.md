@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: research-area
 short-name: kids-gaming
 name: Kids' Gaming
 start-date: 2020-01-01
