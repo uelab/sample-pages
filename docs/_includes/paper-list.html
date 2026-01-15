@@ -1,0 +1,15 @@
+{% assign recent_papers = include.values | reverse %}
+
+<div class="container-fluid mt-5">
+
+    <h3 class="section-header p-2">{{ include.header }}</h3>
+
+    {% for value in recent_papers limit:include.limit %}
+
+        <div >
+            {% include paper-card.html paper=value %}
+        </div>
+        
+    {% endfor %}
+    </div>
+</div>

@@ -5,4 +5,4 @@ title: Publications
 
 <!-- TODO: tocbot -->
 
-{% include paper-grid.html header="Publications" values=site.publications %}
+{% include paper-list.html header="Publications" values=site.publications %}
