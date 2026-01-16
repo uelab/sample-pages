@@ -1,0 +1,8 @@
+// Custom SCSS
+// See: https://getbootstrap.com/docs/5.3/customize/sass/
+// See: https://jekyllrb.com/docs/configuration/sass/
+// See: https://stackoverflow.com/questions/75027499/how-can-i-customize-bootstrap-with-sass-if-i-use-it-via-cdn
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
+
+.rect { background-color: pink; border: 1px solid rgb(255, 182, 239);}

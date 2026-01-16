@@ -1,4 +1,9 @@
 ---
 ---
 
+// Keeping this here lets us override the default Jekyll stylesheet
+// Otherwise it will copy in its own from here: https://github.com/jekyll/jekyll/blob/master/docs/_sass/_style.scss
+// We do this because we want to use the CSS & SCSS settings from bootstrap
+// TODO: there may be a better way.
+
 .rect { background-color: tomato; border: 1px solid rgb(255, 182, 239);}
