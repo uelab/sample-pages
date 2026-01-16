@@ -1,26 +1,27 @@
 ---
 ---
 
-// Note, without a custom SCSS here, Jekyll will inject its own stylesheet
-// From here: https://github.com/jekyll/jekyll/blob/master/docs/_sass/_style.scss
-// We do this because we want to use the CSS & SCSS settings from bootstrap
-
 // Custom SCSS
 // See: https://getbootstrap.com/docs/5.3/customize/sass/
 // See: https://jekyllrb.com/docs/configuration/sass/
-// See: https://stackoverflow.com/questions/75027499/how-can-i-customize-bootstrap-with-sass-if-i-use-it-via-cdn
+// See: https://medium.com/codex/how-to-add-bootstrap-5-sass-to-jekyll-e3b189f71552
 
-// Note: Sass files are imported from _sass directory.
+// Note: source files for bootstrap 5.3 can be found at 
+//   https://github.com/twbs/bootstrap/blob/main/scss/bootstrap.scss.  This is helpful
+//   for knowing import list is complete.
+// 
+//   Locally, Sass files are imported from jekyll's _sass directory.
 
 //@import "bootstrap/bootstrap";
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "bootstrap/functions";
 
-// 2. Include any default variable overrides here
-//$primary: #89A55D;
-$body-bg: #FCF7E4;
+// 2. Include any default variable overrides here.
+//    Complete list of bootstrap variables is in _variables.scss.
+//$body-bg: #F1EFEB;
 $body-color: #353535;
+$card-bg: #F1EFEB;// #fff;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "bootstrap/variables";
