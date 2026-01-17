@@ -10,3 +10,11 @@ collections:
   publications:
   news:
     output: true
+
+plugins:
+  - jekyll-autoprefixer
+
+autoprefixer:
+  browsers:
+    - last 4 versions
+    - Safari > 2

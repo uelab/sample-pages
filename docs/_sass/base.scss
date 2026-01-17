@@ -1,0 +1,14 @@
+// Styles for publications
+
+.pub-authors a {
+  color: $body-color;
+  text-decoration: none;
+}
+
+.pub-authors a:hover {
+  text-decoration: underline;
+}
+
+.pub-stats {
+  color: $secondary;
+}
