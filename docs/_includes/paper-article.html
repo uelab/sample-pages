@@ -1,0 +1,47 @@
+<article>
+  <div class="pub-info">
+    
+    <!-- Title -->
+    <a href="{{ include.paper.download-link }}">
+      <h3 class="pub-title">{{include.paper.title}}</h3>
+    </a>
+
+    <!-- Authors -->
+    <p class="pub-authors">
+      {% assign lastauthor = include.paper.authors | last %}
+      {% for authorid in include.paper.authors %}
+        {% assign labauthor = site.people | where_exp: "item", "item.slug == authorid" | first %}
+        {% if labauthor != nil %}
+          <a href="{{ labauthor.url | relative_url }}">
+              {{labauthor.name}}</a>{% if authorid != lastauthor %},{% endif %}
+        {% else %}
+          {{authorid}}{% if authorid != lastauthor %},{% endif %}
+        {% endif %}
+
+      {% endfor %}
+    </p>
+
+    <!-- Venue, acceptance rate, and award -->
+    <p class="pub-stats">
+
+        <span class="pub-venue">
+          {{include.paper.venue}}
+        </span>
+
+        <!-- <span class="pub-acceptance-rate">
+          
+        </span> -->
+    </p>
+
+    <p>
+
+        <span class="pub-download-links">
+              <a href="{{ include.paper.download-link }}">pdf</a>
+
+              <!-- TODO: conditionally include DOI if available. -->
+              <!-- <a href="https://doi.org/{{include.paper.doi}}">doi</a> -->
+        </span>
+    </p>
+
+  </div>
+</article>
