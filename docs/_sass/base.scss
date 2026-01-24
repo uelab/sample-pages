@@ -1,5 +1,51 @@
 // Styles for publications
 
+
+.artifact-title {
+  font-size: $font-size-base;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-sm;
+  //margin: var(--space-1) 0 0 0;
+  word-wrap: break-word;
+}
+
+.artifact-title a {
+  color: $link-color;
+  text-decoration: none;
+  // transition: color var(--transition-fast);
+}
+
+.artifact-title a:hover {
+  color: $link-hover-color;
+  text-decoration: underline;
+}
+
+// .artifact-title a:focus {
+//   outline: var(--focus-ring-width) solid var(--focus-ring-color);
+//   outline-offset: var(--focus-ring-offset);
+// }
+
+.pub-row-vert-layout {
+  padding-top: $spacer;
+  padding-bottom: $spacer;
+  position: relative;
+  min-height: 150px;
+}
+
+.pub-row-vert-layout p {
+  margin: 0;
+  padding: 0;
+}
+
+.pub-info {
+  // padding-bottom: $spacer 4;
+  // display: table-cell;
+  // vertical-align: top;
+  // width: 100%;
+  // position: relative;
+  font-size: $font-size-sm;
+}
+
 .pub-authors a {
   color: $body-color;
   text-decoration: none;
@@ -11,4 +57,8 @@
 
 .pub-stats {
   color: $secondary;
+}
+
+.pub-title {
+  font-weight: $font-weight-semibold;
 }
