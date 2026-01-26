@@ -44,13 +44,14 @@
         {% endif %}
     </p>
 
+    <!-- Download links in different formats -->
     <p>
-
         <span class="pub-download-links">
-              <a href="{{ include.paper.download-link }}">pdf</a>
+          <a href="{{ include.paper.download-link }}">pdf</a>
 
-              <!-- TODO: conditionally include DOI if available. -->
-              <!-- <a href="https://doi.org/{{include.paper.doi}}">doi</a> -->
+          {% if include.paper.award != nil %}
+            | <a href="https://doi.org/{{include.paper.doi}}">doi</a>
+          {% endif %}
         </span>
     </p>
 
