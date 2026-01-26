@@ -13,9 +13,9 @@
         {% assign labauthor = site.people | where_exp: "item", "item.slug == authorid" | first %}
         {% if labauthor != nil %}
           <a href="{{ labauthor.url | relative_url }}">
-              {{labauthor.name}}</a>{% if authorid != lastauthor %},{% endif %}
+              {{labauthor.name}}</a>{% if authorid != lastauthor %},{% else %}{% endif %}
         {% else %}
-          {{authorid}}{% if authorid != lastauthor %},{% endif %}
+          {{authorid}}{% if authorid != lastauthor %},{% else %}{% endif %}
         {% endif %}
 
       {% endfor %}
@@ -25,12 +25,14 @@
     <p class="pub-stats">
 
         <span class="pub-venue">
-          {{include.paper.venue}}
+          {{include.paper.venue}}.
         </span>
 
-        <!-- <span class="pub-acceptance-rate">
-          
-        </span> -->
+        {% if include.paper.acceptance-rate != nil %}
+        <span class="pub-acceptance-rate">
+          Acceptance rate: {{include.paper.acceptance-rate}}.
+        </span>
+        {% endif %}
     </p>
 
     <p>

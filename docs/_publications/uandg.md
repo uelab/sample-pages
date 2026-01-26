@@ -11,4 +11,5 @@ doi: 10.1145/2971648.2971762
 materials:
 image:
 date: 2016-01-01
+acceptance-rate: 26%
 ---
