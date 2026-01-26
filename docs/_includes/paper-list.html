@@ -1,14 +1,34 @@
 {% assign recent_papers = include.values | reverse %}
 
+<!-- Obtain list of years papers were published -->
+{% assign paper_dates = recent_papers | map: "date" %} 
+{% assign paper_years = '' | split: '' %}
+{% for item in paper_dates %}
+    {% assign paper_year = item | date: "%Y" | split: ' ' %}
+    {% assign paper_years = paper_years | concat: paper_year %}
+{% endfor %}
+{% assign paper_years = paper_years | uniq %}
+
 <div class="container-fluid mt-5">
 
     <h3 class="section-header p-2">{{ include.header }}</h3>
 
-    {% for value in recent_papers limit:include.limit %}
+    <!-- Print each year and the papers published in that year -->
+    {% for year in paper_years %}
+        <h4>{{year}}</h4>
 
-        <div >
-            {% include paper-article.html paper=value %}
-        </div>
-        
+        {% for paper in recent_papers %}
+
+            {% assign paper_year = paper.date | date: "%Y" %}
+
+            {% if year == paper_year %}
+                <div >
+                    {% include paper-article.html paper=paper %}
+                </div>
+            {% endif %}
+    
+        {% endfor %}
+
     {% endfor %}
+
 </div>
