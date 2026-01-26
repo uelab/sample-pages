@@ -33,6 +33,12 @@
           Acceptance rate: {{include.paper.acceptance-rate}}.
         </span>
         {% endif %}
+
+        {% if include.paper.award != nil %}
+        <span class="pub-acceptance-rate">
+          <img src="{{ '/assets/img/prize-badge.avif' | relative_url }}" height="24"> {{include.paper.award}}
+        </span>
+        {% endif %}
     </p>
 
     <p>
