@@ -35,8 +35,11 @@
         {% endif %}
 
         {% if include.paper.award != nil %}
-        <span class="pub-acceptance-rate">
-          <img src="{{ '/assets/img/prize-badge.avif' | relative_url }}" height="24"> {{include.paper.award}}
+        <span class="pub-award">
+          <span class="pub-award-icon">
+            <img src="{{ '/assets/img/prize-badge.avif' | relative_url }}" height="20" alt="{{include.paper.award}}">
+          </span>
+          <span class="pub-award-text"> {{include.paper.award}} </span>
         </span>
         {% endif %}
     </p>
