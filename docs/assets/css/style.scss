@@ -19,13 +19,12 @@
 
 // 2. Include any default variable overrides here.
 //    Complete list of bootstrap variables is in _variables.scss.
-//$body-bg: #F1EFEB;
 $body-color: #353535;
-$card-bg: #F1EFEB;// #fff;
+$body-bg: #FEFCF2;
 
 $link-decoration: none;
 $link-hover-decoration: underline;
-$link-color: #337ab7; //#4372c5;
+$link-color: #145046; //#337ab7; //#4372c5;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "bootstrap/variables";
