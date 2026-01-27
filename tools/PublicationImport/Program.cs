@@ -46,8 +46,10 @@ foreach (dynamic collection in records)
 
         // Parse the title field into authors, year, title, venue
         int yearOffset = titleField.IndexOf('2');
-        string authors = titleField.Substring(0, yearOffset - 1);
-
+        string authors = titleField.Substring(0, yearOffset - 2); // remove '.' at end
+        authors = authors.Replace(" and", "");
+        authors = authors.Replace(" &", "");
+        authors = authors.Replace("Hiniker, A", "alexis-hiniker");
         Console.WriteLine("authors: " + authors);
 
         string remaining = titleField.Substring(yearOffset);
@@ -102,12 +104,13 @@ foreach (dynamic collection in records)
         output.Append(img);
         output.Append('|');
 
-        Console.WriteLine("Award: " + (string)paper.Value.award);
+        string award = paper.Value.award;
+        Console.WriteLine("Award: " + award);
 
         output.Append((string)paper.Value.award);
         output.Append('|');
 
-        string slug = "***";
+        string slug = string.Empty;
         if (loc is not null)
         {
             string[] vals = loc.Split('/', '.');
@@ -120,8 +123,58 @@ foreach (dynamic collection in records)
         output.AppendLine();
 
         Console.WriteLine();
+
+        // authors|year|title|venue|download-link|image|award|slug
+        WriteMarkdownFile(slug, authors, year, title, venue, loc, image, award);
     }
 }
+
+void WriteMarkdownFile(string slug, string authors, string year, string title, string venue, string? loc, string image, string award)
+{
+    if (slug.Length == 0)
+    {
+        slug = title;
+    }
+
+    StringBuilder sb = new();
+    sb.AppendLine("---");
+    sb.Append("title: ");
+    sb.AppendLine(title);
+    sb.Append("authors: [");
+    sb.Append(authors);
+    sb.AppendLine("]");
+    sb.Append("venue: ");
+    sb.AppendLine(venue);
+    sb.AppendLine("keywords: []");
+    sb.Append("download-link: ");
+    sb.AppendLine(loc);
+    sb.AppendLine("citation: #");
+    sb.AppendLine("research-areas: []");
+    sb.AppendLine("publicationtype: ");
+    sb.AppendLine("doi: ");
+    sb.Append("image: ");
+    sb.AppendLine(image);
+    sb.Append("year: ");
+    sb.AppendLine(year);
+    sb.AppendLine("---");
+
+    string fileName = @"C:\src\sample-pages\tools\temp\files\" + slug + ".md";
+    try
+    {
+        using (FileStream fs = File.OpenWrite(fileName))
+        {
+            string outputstr = sb.ToString();
+            BinaryData outbytes = BinaryData.FromString(outputstr);
+            fs.Write(outbytes);
+        }
+    }
+    catch (Exception ex)
+    {
+        // Dump this for debugging and manual correction.
+        Console.WriteLine(ex.ToString());
+    }
+}
+
 
 using (FileStream fs = File.OpenWrite(@"C:\src\sample-pages\tools\temp\papers-out.txt"))
 {
@@ -130,4 +183,4 @@ using (FileStream fs = File.OpenWrite(@"C:\src\sample-pages\tools\temp\papers-ou
     fs.Write(outbytes);
 }
 
-//Console.ReadLine();
+Console.ReadLine();
