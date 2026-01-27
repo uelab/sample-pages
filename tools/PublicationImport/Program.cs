@@ -17,6 +17,7 @@
 using Azure;
 using Azure.Core.Serialization;
 using System.Text;
+using System.Threading.Tasks;
 
 // Handle the input JSON bytes
 byte[] bytes = File.ReadAllBytes(@"C:\src\sample-pages\tools\temp\paper.json");
@@ -41,7 +42,7 @@ foreach (dynamic collection in records)
         string titleField = (string)paper.Value.title;
         titleField = titleField.Replace('“', '"');
         titleField = titleField.Replace('”', '"');
-        
+
         Console.WriteLine("Title field: " + titleField);
 
         // Parse the title field into authors, year, title, venue
@@ -129,7 +130,7 @@ foreach (dynamic collection in records)
     }
 }
 
-void WriteMarkdownFile(string slug, string authors, string year, string title, string venue, string? loc, string image, string award)
+async Task WriteMarkdownFile(string slug, string authors, string year, string title, string venue, string? loc, string image, string award)
 {
     if (slug.Length == 0)
     {
@@ -139,12 +140,30 @@ void WriteMarkdownFile(string slug, string authors, string year, string title, s
     StringBuilder sb = new();
     sb.AppendLine("---");
     sb.Append("title: ");
-    sb.AppendLine(title);
+    if (title.Contains(':'))
+    {
+        sb.Append('"');
+    }
+    sb.Append(title);
+    if (title.Contains(':'))
+    {
+        sb.Append('"');
+    }
+    sb.AppendLine();
     sb.Append("authors: [");
     sb.Append(authors);
     sb.AppendLine("]");
     sb.Append("venue: ");
-    sb.AppendLine(venue);
+    if (venue.Contains(':'))
+    {
+        sb.Append('"');
+    }
+    sb.Append(venue);
+    if (venue.Contains(':'))
+    {
+        sb.Append('"');
+    }
+    sb.AppendLine();
     sb.AppendLine("keywords: []");
     sb.Append("download-link: ");
     sb.AppendLine(loc);
@@ -156,6 +175,14 @@ void WriteMarkdownFile(string slug, string authors, string year, string title, s
     sb.AppendLine(image);
     sb.Append("year: ");
     sb.AppendLine(year);
+    sb.Append("award: ");
+    if (!string.IsNullOrEmpty(award))
+    {
+        sb.Append('"');
+        sb.Append(award);
+        sb.Append('"');
+    }
+    sb.AppendLine("");
     sb.AppendLine("---");
 
     string fileName = @"C:\src\sample-pages\tools\temp\files\" + slug + ".md";
