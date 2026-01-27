@@ -11,11 +11,11 @@
 
 <div class="container-fluid mt-5">
 
-    <h3 class="section-header p-2">{{ include.header }}</h3>
+    <h1 class="section-header p-2">{{ include.header }}</h1>
 
     <!-- Print each year and the papers published in that year -->
     {% for year in paper_years %}
-        <h4>{{year}}</h4>
+        <h2 class="mx-4">{{year}}</h2>
 
         {% for paper in recent_papers %}
 
