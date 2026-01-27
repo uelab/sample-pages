@@ -28,7 +28,8 @@ dynamic dataStore = dataBinding.dataStore;
 dynamic records = dataStore.recordsByCollectionId;
 
 // Set up the output: this is not optimal, but quick and dirty.
-StringBuilder output = new("authors,year,title,venue,download-link,image,award,slug\n");
+// Use pipes not commas because commas are used in the fields.
+StringBuilder output = new("authors|year|title|venue|download-link|image|award|slug\n");
 
 foreach (dynamic collection in records)
 {
@@ -77,13 +78,13 @@ foreach (dynamic collection in records)
 
 
         output.Append(authors);
-        output.Append(',');
+        output.Append('|');
         output.Append(year);
-        output.Append(',');
+        output.Append('|');
         output.Append(title);
-        output.Append(',');
+        output.Append('|');
         output.Append(venue);
-        output.Append(',');
+        output.Append('|');
 
         string url = paper.Value.url;
         string link = paper.Value.link;
@@ -91,7 +92,7 @@ foreach (dynamic collection in records)
         Console.WriteLine("Link: " + loc);
 
         output.Append(loc);
-        output.Append(',');
+        output.Append('|');
 
         string paperImage = paper.Value.paperImage;
         string image = paper.Value.image;
@@ -99,12 +100,12 @@ foreach (dynamic collection in records)
         Console.WriteLine("Image: " + img);
 
         output.Append(img);
-        output.Append(',');
+        output.Append('|');
 
         Console.WriteLine("Award: " + (string)paper.Value.award);
 
         output.Append((string)paper.Value.award);
-        output.Append(',');
+        output.Append('|');
 
         string slug = "***";
         if (loc is not null)
@@ -116,16 +117,17 @@ foreach (dynamic collection in records)
         Console.WriteLine("Slug: " + slug);
 
         output.Append(slug);
+        output.AppendLine();
 
         Console.WriteLine();
     }
 }
 
-using (FileStream fs = File.OpenWrite(@"C:\src\sample-pages\tools\temp\papers-out.csv"))
+using (FileStream fs = File.OpenWrite(@"C:\src\sample-pages\tools\temp\papers-out.txt"))
 {
     string outputstr = output.ToString();
     BinaryData outbytes = BinaryData.FromString(outputstr);
     fs.Write(outbytes);
 }
 
-Console.ReadLine();
+//Console.ReadLine();
