@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_3ee0f25a88fb47b4a03adeb7f9521b5a~mv2.png/artboards.
 year: 2021
 award: 
 ---
-

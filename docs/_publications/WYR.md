@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_abf463a264264dbe978c1becc3f69deb~mv2.jpg/WYR.jpg#or
 year: 2021
 award: 
 ---
-
-

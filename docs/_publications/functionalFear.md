@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_0501bd82c53e43639530a5e26bb66702~mv2.png/safetyDesi
 year: 2024
 award: 
 ---
-
-

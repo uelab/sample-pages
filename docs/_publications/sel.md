@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_5bb88c5355fd469b94d0a289c0dddc46~mv2.jpg/sel.jpg#or
 year: 2022
 award: 
 ---
-
-

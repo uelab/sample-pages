@@ -9,7 +9,9 @@ research-areas: [child-tech, kids-games]
 publicationtype: conference
 doi: 10.1145/3202185.3202749
 materials:
-image:
+image: wix:image://v1/a0f093_68eee1bfb31a4c8f9b8fad0bd06d3833~mv2.png/quackPicture.png#originWidth=497&originHeight=325
+year: 2018
 date: 2018-01-01
 award:
+acceptance: "Acceptance rate: 29%"
 ---

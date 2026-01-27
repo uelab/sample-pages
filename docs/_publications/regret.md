@@ -12,4 +12,3 @@ image:
 year: 2025
 award: 
 ---
-

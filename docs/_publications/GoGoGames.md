@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_7be5207cc4a64a6483ed5b85a5d6ed9e.png/Icon_2x.png#or
 year: 2013
 award: 
 ---
-

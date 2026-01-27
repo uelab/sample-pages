@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_badc9528c06d4be6acc0121794d22316~mv2.png/temporalMo
 year: 2024
 award: 
 ---
-

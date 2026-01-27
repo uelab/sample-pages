@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_c7bfe412760a4aeab3d354dd4e32a423~mv2.jpg/echodot.jp
 year: 2020
 award: 
 ---
-

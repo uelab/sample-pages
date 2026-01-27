@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_714222859e214f29a134bc2856749666.jpg/playground.jpg
 year: 2015
 award: 
 ---
-

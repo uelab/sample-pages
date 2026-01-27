@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_55efe0fab9f346e892a6eeb4ae8d720d~mv2.jpg/manipulati
 year: 2022
 award: 
 ---
-

@@ -12,4 +12,3 @@ image:
 year: 25, 
 award: 
 ---
-

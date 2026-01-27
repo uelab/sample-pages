@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_66c895111b2349b7af3fc06318a61973~mv2.png/superhero.
 year: 2023
 award: 
 ---
-
-

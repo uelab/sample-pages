@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_d40c2afb8c5e488ab25386901e80eb51~mv2.png/natureGO.p
 year: 2021
 award: 
 ---
-

@@ -12,4 +12,3 @@ image: wix:image://v1/11062b_f93c414825fc4ba6bddfcbfd1eae6f9a~mv2.jpg/Playing%20
 year: 2019
 award: 
 ---
-

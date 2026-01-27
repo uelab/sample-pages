@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_9bb14aea678a48599ebd02a853129745~mv2.jpg/ontologyMo
 year: 2023
 award: 
 ---
-
-

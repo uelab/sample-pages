@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_975dc06f315f4e85b069314c96ae97e5.jpg/techRules2.jpg
 year: 2016
 award: 
 ---
-

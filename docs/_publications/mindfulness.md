@@ -12,4 +12,3 @@ image: wix:image://v1/b5ba72c4a1414366a5461be3619dacd8.jpg/Gyan%20Mudra.jpg#orig
 year: 2020
 award: 
 ---
-

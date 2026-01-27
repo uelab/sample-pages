@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_d4fe6849b95d47a39e4c5f08bc83e681~mv2.png/participan
 year: 2019
 award: 
 ---
-

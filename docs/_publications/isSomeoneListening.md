@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_fd9192b0840e498682b2e01b30d17d56~mv2.png/KeyFigExam
 year: 2021
 award: 
 ---
-

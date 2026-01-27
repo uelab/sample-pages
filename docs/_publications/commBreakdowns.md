@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_ee51930634e949ccb4504ca30323facb~mv2.jpg/echo.jpg#o
 year: 2019
 award: 
 ---
-

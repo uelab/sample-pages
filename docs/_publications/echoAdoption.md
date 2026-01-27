@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_20270727365e47818918bae2411ee710~mv2.png/echoDotUsa
 year: 2020
 award: 
 ---
-
-

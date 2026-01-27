@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_ca5db172f6274a5e8b9381ddd615ef51~mv2.png/jcci.png#o
 year: 2021
 award: 
 ---
-
-

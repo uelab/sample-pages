@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_02a0828f9b1b4c27ab39179ac1029d4d~mv2.png/citizen.pn
 year: 2023
 award: "Best paper award (top 1%)"
 ---
-

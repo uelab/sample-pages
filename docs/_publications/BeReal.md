@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_23d4f7a2d6c44326b39ea3762a56edc3~mv2.png/beReal.png
 year: 2024
 award: 
 ---
-
-

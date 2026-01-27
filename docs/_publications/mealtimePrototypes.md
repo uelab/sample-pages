@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_f7eed523b18f426ebda445874feefc15~mv2.png/catPlate.p
 year: 2019
 award: 
 ---
-

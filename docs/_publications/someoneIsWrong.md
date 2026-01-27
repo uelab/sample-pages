@@ -12,5 +12,3 @@ image: wix:image://v1/a0f093_a2343466db2d4bdf8a00d1694ca75f55~mv2.png/storyboard
 year: 2021
 award: 
 ---
-
-

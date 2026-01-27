@@ -12,4 +12,3 @@ image: wix:image://v1/a0f093_c89698cb31e3462fa1a4fe8f4e68e2e5~mv2.jpg/vaGA.jpg#o
 year: 2022
 award: 
 ---
-
