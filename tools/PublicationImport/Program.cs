@@ -38,20 +38,29 @@ foreach (dynamic collection in records)
     foreach (dynamic paper in collection.Value)
     {
         string titleField = (string)paper.Value.title;
-        Console.WriteLine("Title: " + titleField);
+        titleField = titleField.Replace('“', '"');
+        titleField = titleField.Replace('”', '"');
+        
+        Console.WriteLine("Title field: " + titleField);
 
         // Parse the title field into authors, year, title, venue
         int yearOffset = titleField.IndexOf('2');
         string authors = titleField.Substring(0, yearOffset - 1);
+
+        Console.WriteLine("authors: " + authors);
+
         string remaining = titleField.Substring(yearOffset);
         string year = remaining.Substring(0, 4);
+
+        Console.WriteLine("year: " + year);
+
         remaining = remaining.Substring(6);
         string title = string.Empty;
-        if (remaining.StartsWith("\""))
+        if (remaining.StartsWith('"'))
         {
-            int titleEndOffset = remaining.Substring(1).IndexOf("\"");
-            title = remaining.Substring(1, titleEndOffset);
-            remaining = remaining.Substring(titleEndOffset + 1);
+            int titleEndOffset = remaining.Substring(1).IndexOf('"');
+            title = remaining.Substring(1, titleEndOffset - 1); // -1 to remove '.' at end.
+            remaining = remaining.Substring(titleEndOffset + 2); // 2 to remove both '.' and space.
         }
         else
         {
@@ -60,7 +69,12 @@ foreach (dynamic collection in records)
             remaining = remaining.Substring(titleEndOffset + 1);
         }
 
-        string venue = remaining;
+
+        string venue = remaining.Substring(1, remaining.Length - 2); // remove leading space and final '.'
+
+        Console.WriteLine("title: " + title);
+        Console.WriteLine("venue: " + venue);
+
 
         output.Append(authors);
         output.Append(',');
