@@ -1,12 +1,7 @@
-{% assign recent_papers = include.values | reverse %}
+{% assign recent_papers = include.values | sort: "year" | reverse %}
 
 <!-- Obtain list of years papers were published -->
-{% assign paper_dates = recent_papers | map: "date" %} 
-{% assign paper_years = '' | split: '' %}
-{% for item in paper_dates %}
-    {% assign paper_year = item | date: "%Y" | split: ' ' %}
-    {% assign paper_years = paper_years | concat: paper_year %}
-{% endfor %}
+{% assign paper_years = recent_papers | map: "year" %} 
 {% assign paper_years = paper_years | uniq %}
 
 <div class="container-fluid mt-5">
@@ -17,16 +12,12 @@
     {% for year in paper_years %}
         <h2 class="mx-4">{{year}}</h2>
 
-        {% for paper in recent_papers %}
+        {% assign papers_in_year = recent_papers | where: "year", year %}
 
-            {% assign paper_year = paper.date | date: "%Y" %}
-
-            {% if year == paper_year %}
-                <div >
-                    {% include paper-article.html paper=paper %}
-                </div>
-            {% endif %}
-    
+        {% for paper in papers_in_year %}
+            <div >
+                {% include paper-article.html paper=paper %}
+            </div>
         {% endfor %}
 
     {% endfor %}

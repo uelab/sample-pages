@@ -11,4 +11,5 @@ doi:
 materials:
 image:
 date: 2016-01-01
+year: 2016
 ---

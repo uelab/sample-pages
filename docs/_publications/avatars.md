@@ -9,6 +9,6 @@ research-areas: []
 publicationtype: 
 doi: 
 image: 
-year: 25, 
+year: 2025
 award: 
 ---

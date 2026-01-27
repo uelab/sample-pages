@@ -12,4 +12,5 @@ materials:
 image:
 date: 2017-01-01
 award: "Best Paper Honorable Mention (top seven papers)"
+year: 2017
 ---
