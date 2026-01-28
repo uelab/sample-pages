@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: 
+image: instagramEmotions.avif
 year: 2025
 award: 
 acceptance: "Acceptance rate: 25%"

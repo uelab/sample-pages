@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: 
+image: belovedCommunity.avif
 year: 2025
 award: Best paper honorable mention (top 5%)
 acceptance: "Acceptance rate: 25%"

@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: 
+image: nonviolentDesign.avif
 year: 2025
 award: 
 acceptance: 

@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: 
+image: privacySocialNorm.avif
 year: 2025
 award: 
 ---

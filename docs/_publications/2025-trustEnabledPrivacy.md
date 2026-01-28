@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: 
+image: trustEnabledPrivacy.avif
 year: 2025
 award: 
 ---
