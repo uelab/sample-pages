@@ -1,13 +1,11 @@
 <article class="row pub-row-vert-layout">
 
-  <!-- TODO: once we close on whether this is a temp image or a pdf thumbnail,
-       bring this code back and adjust the spacing.  We'll want to change the col per
-       bootstrap grid (https://getbootstrap.com/docs/5.3/layout/grid/) and the 
-       spacing per (https://getbootstrap.com/docs/5.3/utilities/spacing/#notation) -->
+  <!-- TODO: Change the col per bootstrap grid  (https://getbootstrap.com/docs/5.3/layout/grid/) 
+             and the spacing per (https://getbootstrap.com/docs/5.3/utilities/spacing/#notation) -->
   <div class="col pub-thumbnail">
     <a href="{{ include.paper.download-link }}" class="pub-thumbnail-link">
         <img 
-          src="{{ include.paper.image | relative_url }}" 
+          src="{{ '/assets/img/' | append: include.paper.image | relative_url }}" 
           width="110"
           height="110"
           style="width:110px;height:110px;object-fit:cover"
@@ -16,7 +14,7 @@
     </a>
   </div>
   
-  <div class="col-10 mx-4 pub-info">
+  <div class="col-10 pub-info">
     
     <!-- Title -->
     <a href="{{ include.paper.download-link }}">
