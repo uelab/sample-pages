@@ -8,5 +8,6 @@ citation: #
 research-areas: []
 publicationtype:
 doi:
+image: /assets/img/breakup.avif
 year: 2025
 ---
