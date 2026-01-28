@@ -1,6 +1,6 @@
 ---
-title: " Parents’ ontological beliefs regarding the use of conversational agents at home: resisting the neoliberal discourse"
-authors: [Kucirkova, N., alexis-hiniker.]
+title: "Parents’ Ontological Beliefs Regarding the Use of Conversational Agents at Home: Resisting the Neoliberal Discourse"
+authors: [Kucirkova, N., alexis-hiniker]
 venue: Learning, Media and Technology, 1-16
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/CAontologies.pdf
