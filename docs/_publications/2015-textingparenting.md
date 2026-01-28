@@ -9,6 +9,8 @@ research-areas: [family-tech, digital-wellbeing]
 publicationtype: conference
 doi: 
 materials:
-image:
+image: wix:image://v1/a0f093_714222859e214f29a134bc2856749666.jpg/playground.jpg#originWidth=259&originHeight=194
+year: 2015
 date: 2015-01-01
+acceptance: "Acceptance rate: 25%"
 ---

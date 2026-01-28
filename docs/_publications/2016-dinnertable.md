@@ -12,4 +12,5 @@ materials:
 image:
 date: 2016-01-01
 year: 2016
+acceptance: "Acceptance rate: 25%"
 ---
