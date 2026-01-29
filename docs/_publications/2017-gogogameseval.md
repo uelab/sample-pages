@@ -9,7 +9,7 @@ research-areas: [child-tech, kids-games]
 publicationtype: conference
 doi: 10.1145/3132525.3132551
 materials:
-image: wix:image://v1/a0f093_0f62ac3982634e5a8170e45c30e9c539~mv2.png/wheelsAndRoads.png#originWidth=850&originHeight=638
+image: gogogameseval.avif
 year: 2017
 award: "Best Paper Honorable Mention (top seven papers)"
 acceptance: "Acceptance rate: 22%"
