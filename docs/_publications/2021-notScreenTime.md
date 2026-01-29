@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_d40c2afb8c5e488ab25386901e80eb51~mv2.png/natureGO.png#originWidth=1037&originHeight=672
+image: notScreenTime.avif
 year: 2021
 award: 
 acceptance: "Acceptance rate: 26%"

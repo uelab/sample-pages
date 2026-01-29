@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_3ee0f25a88fb47b4a03adeb7f9521b5a~mv2.png/artboards.png#originWidth=276&originHeight=469
+image: artboardUserStudy.avif
 year: 2021
 award: 
 acceptance: "Acceptance rate: 26%"

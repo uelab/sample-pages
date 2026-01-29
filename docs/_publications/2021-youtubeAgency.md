@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_d98d8ba341a440938936a1de40b5fb72~mv2.png/youtube.png#originWidth=1029&originHeight=684
+image: youtubeAgency.avif
 year: 2021
 award: 
 acceptance: "Acceptance rate: 26%"
