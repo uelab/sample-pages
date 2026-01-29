@@ -1,6 +1,6 @@
 ---
 title: "ML-EAT: A Multilevel Embedding Association Test for Interpretable and Transparent Social Science"
-authors: [Wolfe, R., alexis-hiniker., Howe, W]
+authors: [Wolfe, R., alexis-hiniker, Howe, W]
 venue:  Proceedings of the 2024 AAAI/ACM Conference on AI, Ethics, and Society (to appear)
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/MLEAT.pdf
