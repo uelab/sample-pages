@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_d4b745fc09f7416b80137684dcc7d5cb~mv2.jpg/osis.jpg#originWidth=375&originHeight=481
+image: osiUserStudy.avif
 year: 2020
 award: 
 acceptance: "Acceptance rate: 24%"

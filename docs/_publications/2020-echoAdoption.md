@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_20270727365e47818918bae2411ee710~mv2.png/echoDotUsage.png#originWidth=565&originHeight=453
+image: echoAdoption.avif
 year: 2020
 award: 
 ---

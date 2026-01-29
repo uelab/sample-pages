@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/b5ba72c4a1414366a5461be3619dacd8.jpg/Gyan%20Mudra.jpg#originWidth=5000&originHeight=3333
+image: mindfulness.avif
 year: 2020
 award: 
 acceptance: "Acceptance rate: 24%"

@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_e223db179e9440be8f63984b319fc537~mv2.png/otter.png#originWidth=449&originHeight=360
+image: otterThisWorld.avif
 year: 2020
 award: 
 acceptance: "Acceptance rate: 31%"
