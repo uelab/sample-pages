@@ -9,9 +9,7 @@ research-areas: [child-tech, family-tech, digital-wellbeing, manipulative-design
 publicationtype: conference
 doi: 10.1145/3173574.3173828
 materials:
-image:
-image: wix:image://v1/a0f093_aa30f1b66abe40119b21c1de3ff951cc~mv2.png/tictactoePic2.png#originWidth=304&originHeight=257
+image: letsplay.avif
 year: 2018
-date: 2018-01-01
 acceptance: "Acceptance rate: 25.7%"
 ---

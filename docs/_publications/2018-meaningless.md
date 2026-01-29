@@ -9,7 +9,7 @@ research-areas: [digital-wellbeing, screentime-tools]
 publicationtype: journal
 doi: 10.1145/3191754
 materials:
-image: wix:image://v1/a0f093_cfa07313e26841e688f9914135cdd330~mv2.png/uandg.png#originWidth=652&originHeight=664
+image: meaningless.avif
 year: 2018
 award: 
 ---

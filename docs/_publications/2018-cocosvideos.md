@@ -9,8 +9,7 @@ research-areas: [child-tech, family-tech, digital-wellbeing]
 publicationtype: conference
 doi: 10.1145/3173574.3174233
 materials:
-image:
-date: 2018-01-01
+image: cocosvideos.avif
 year: 2018
 acceptance: "Acceptance rate: 25.7%"
 ---
