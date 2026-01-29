@@ -9,8 +9,7 @@ research-areas: [family-tech]
 publicationtype: conference
 doi: 
 materials:
-image:
-date: 2016-01-01
+image: dinnertable.avif
 year: 2016
 acceptance: "Acceptance rate: 25%"
 ---
