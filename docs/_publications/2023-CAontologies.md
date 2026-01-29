@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_9bb14aea678a48599ebd02a853129745~mv2.jpg/ontologyModel.jpg#originWidth=1250&originHeight=683
+image: caontologies.avif
 year: 2023
 award: 
 ---

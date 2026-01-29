@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_c999b5cd670c4b86b1a61e91f5c62dae~mv2.png/switchtube.png#originWidth=145&originHeight=363
+image: switchtube.avif
 year: 2023
 award: "Best paper honorable mention (top 5%)"
 ---
