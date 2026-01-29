@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_d868e3ae23d4442f8c8e027685565c6a~mv2.gif/attention.gif#originWidth=480&originHeight=281
+image: reclaimingAttention.gif
 year: 2022
 award: 
 ---

@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_280f26a272d942b19cc79255f3ee5284~mv2.png/chirp.png#originWidth=627&originHeight=382
+image: chirp.avif
 year: 2022
 award: 
 ---

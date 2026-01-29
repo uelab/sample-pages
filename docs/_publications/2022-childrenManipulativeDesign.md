@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_55efe0fab9f346e892a6eeb4ae8d720d~mv2.jpg/manipulativeDesign.jpg#originWidth=700&originHeight=400
+image: childrenManipulativeDesign.avif
 year: 2022
 award: 
 ---

@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_fc6f0b42d0844804bf020bc9809431a6~mv2.png/dissociation.png#originWidth=414&originHeight=392
+image: dissociation.avif
 year: 2022
 award: 
 ---
