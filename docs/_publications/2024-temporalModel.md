@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_badc9528c06d4be6acc0121794d22316~mv2.png/temporalModel.png#originWidth=739&originHeight=333
+image: temporalModel.avif
 year: 2024
 award: 
 ---

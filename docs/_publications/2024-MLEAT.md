@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_59e7bb6236dd4af2aa6fd56ad430c1b0~mv2.png/mleat_process.png#originWidth=1886&originHeight=1172
+image: mleat.avif
 year: 2024
 award: 
 ---

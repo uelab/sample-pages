@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_0501bd82c53e43639530a5e26bb66702~mv2.png/safetyDesigns.png#originWidth=560&originHeight=516
+image: functionalFear.avif
 year: 2024
 award: 
 ---

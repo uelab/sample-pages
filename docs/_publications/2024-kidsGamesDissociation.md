@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_ddfa5708e2d6480a99010a0b3566b60e~mv2.png/traversing.png#originWidth=1043&originHeight=560
+image: kidsGamesDissociation.avif
 year: 2024
 award: 
 acceptance: "Acceptance rate: 29%"

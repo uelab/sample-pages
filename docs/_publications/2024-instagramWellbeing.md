@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_1978c4082c1941c3a775002d1c1583f6~mv2.png/appMinder.png#originWidth=328&originHeight=349
+image: instagramWellbeing.avif
 year: 2024
 acceptance: "Acceptance rate: 29%"
 award: 
