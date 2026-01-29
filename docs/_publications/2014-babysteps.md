@@ -9,7 +9,7 @@ research-areas: [family-tech, socialmedia-wellbeing]
 publicationtype: conference
 doi: 
 materials:
-image: wix:image://v1/a0f093_51a19a5c134944d3ae787eec81b7237a.png/Example.png#originWidth=984&originHeight=653
+image: babysteps.avif
 year: 2014
 acceptance: "Acceptance rate: 23%"
 ---
