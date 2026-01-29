@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_f728d44e649246fea6ac7ecde51706bb~mv2.jpg/cmcScreenshot.jpg#originWidth=460&originHeight=299
+image: noTouchPig.avif
 year: 2019
 award: 
 acceptance: "Acceptance rate: 31%"

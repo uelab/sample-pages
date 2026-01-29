@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/5ebe18ba04404df89de3ae26b737108c.jpg/Kids%20in%20Preschool.jpg#originWidth=6048&originHeight=4032
+image: preschoolObservations.avif
 year: 2019
 award: 
 ---

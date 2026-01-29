@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_ee51930634e949ccb4504ca30323facb~mv2.jpg/echo.jpg#originWidth=1100&originHeight=619
+image: commBreakdowns.avif
 year: 2019
 award: 
 acceptance: "Acceptance rate: 23%"

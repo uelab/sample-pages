@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/11062b_f93c414825fc4ba6bddfcbfd1eae6f9a~mv2.jpg/Playing%20on%20Phones.jpg#originWidth=4349&originHeight=2997
+image: everythingsThePhone.avif
 year: 2019
 award: 
 acceptance: "Acceptance rate: 23%"

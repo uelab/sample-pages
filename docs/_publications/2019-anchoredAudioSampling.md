@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_effb4c1ebb134699972fc3f1d42923a2~mv2.png/filesAll.png#originWidth=901&originHeight=714
+image: anchoredAudioSampling.avif
 year: 2019
 award: Best paper award (top 1%)
 acceptance: "Acceptance rate: 23%"

@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_f7eed523b18f426ebda445874feefc15~mv2.png/catPlate.png#originWidth=322&originHeight=361
+image: mealtimePrototypes.avif
 year: 2019
 award: 
 acceptance: "Acceptance rate: 34%"

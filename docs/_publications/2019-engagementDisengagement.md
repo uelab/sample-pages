@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_d4fe6849b95d47a39e4c5f08bc83e681~mv2.png/participantSketches.png#originWidth=816&originHeight=1150
+image: engagementDisengagement.avif
 year: 2019
 award: 
 acceptance: "Acceptance rate: 23%"

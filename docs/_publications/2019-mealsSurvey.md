@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_42397a8ba08a422baeaef997b52cb270~mv2.png/mealStoryboard.png#originWidth=923&originHeight=698
+image: mealsSurvey.avif
 year: 2019
 award: 
 ---

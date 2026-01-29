@@ -8,7 +8,7 @@ citation: #
 research-areas: []
 publicationtype: 
 doi: 
-image: wix:image://v1/a0f093_1f4e34443c8043799264c54ff1c97fb8~mv2.jpg/creepyKidsTeam.jpg#originWidth=750&originHeight=486
+image: creepy.avif
 year: 2019
 award: 
 acceptance: "Acceptance rate: 23%"
