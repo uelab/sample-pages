@@ -1,0 +1,74 @@
+<article class="row pub-row-vert-layout">
+
+  <!-- TODO: Change the col per bootstrap grid  (https://getbootstrap.com/docs/5.3/layout/grid/) 
+             and the spacing per (https://getbootstrap.com/docs/5.3/utilities/spacing/#notation) -->
+  <div class="col pub-thumbnail">
+    <a href="{{ include.paper.download-link }}" target="_blank" class="pub-thumbnail-link">
+        <img 
+          src="{{ '/assets/img/' | append: include.paper.image | relative_url }}" 
+          width="110"
+          height="110"
+          style="width:110px;height:110px;object-fit:cover"
+          alt="{{include.paper.title}}" 
+          class="pub-thumbnail-image img-responsive">
+    </a>
+  </div>
+  
+  <div class="col-10 pub-info">
+    
+    <!-- Title -->
+    <a href="{{ include.paper.download-link }}" target="_blank">
+      <h3 class="artifact-title pub-title">{{include.paper.title}}</h3>
+    </a>
+
+    <!-- Authors -->
+    <p class="pub-authors">
+      {% assign lastauthor = include.paper.authors | last %}
+      {% for authorid in include.paper.authors %}
+        {% assign labauthor = site.people | where_exp: "item", "item.slug == authorid" | first %}
+        {% if labauthor != nil %}
+          <a href="{{ labauthor.url | relative_url }}">
+              {{labauthor.name}}</a>{% if authorid != lastauthor %},{% else %}{% endif %}
+        {% else %}
+          {{authorid}}{% if authorid != lastauthor %},{% else %}{% endif %}
+        {% endif %}
+
+      {% endfor %}
+    </p>
+
+    <!-- Venue, acceptance rate, and award -->
+    <p class="pub-stats">
+
+        <span class="pub-venue">
+          {{include.paper.venue}}.
+        </span>
+
+        {% if include.paper.acceptance-rate != nil %}
+        <span class="pub-acceptance-rate">
+          Acceptance rate: {{include.paper.acceptance-rate}}.
+        </span>
+        {% endif %}
+
+        {% if include.paper.award != nil %}
+        <span class="pub-award">
+          <span class="pub-award-icon">
+            <img src="{{ '/assets/img/prize-badge.avif' | relative_url }}" height="20" alt="{{include.paper.award}}">
+          </span>
+          <span class="pub-award-text"> {{include.paper.award}} </span>
+        </span>
+        {% endif %}
+    </p>
+
+    <!-- Download links in different formats -->
+    <p>
+        <span class="pub-download-links">
+          <a href="{{ include.paper.download-link }}" target="_blank">pdf</a>
+
+          {% if include.paper.award != nil %}
+            | <a href="https://doi.org/{{include.paper.doi}}" target="_blank">doi</a>
+          {% endif %}
+        </span>
+    </p>
+
+  </div>
+</article>

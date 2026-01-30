@@ -9,7 +9,7 @@
     <div class="row">
         {% for value in recent_papers limit:include.limit %}
         <div class="col col-xs-12 col-sm-6 col-md-4 ">
-            {% include paper-card.html paper=value %}
+            {% include paper-article.html paper=value %}
         </div>
         {% endfor %}
     </div>

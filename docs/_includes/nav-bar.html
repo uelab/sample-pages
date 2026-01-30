@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm">
   <div class="container-fluid">
         <a class="navbar-brand" href="{{ '/' | relative_url }}" >
           <span class="text-base ps-2">
@@ -15,7 +15,7 @@
               <li class="nav-item">
                 <a
                   href="{{ item.link | relative_url }}"
-                  {% if page.url == item.link %} class="nav-link active"
+                  {% if page.url == item.link %} class="nav-link active" aria-current="page"
                   {% else %} class="nav-link" 
                   {% endif %}
                 >

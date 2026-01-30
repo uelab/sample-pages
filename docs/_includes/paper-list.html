@@ -1,0 +1,25 @@
+{% assign recent_papers = include.values | sort: "year" | reverse %}
+
+<!-- Obtain list of years papers were published -->
+{% assign paper_years = recent_papers | map: "year" %} 
+{% assign paper_years = paper_years | uniq %}
+
+<div class="container-fluid mt-5">
+
+    <h1 class="section-header p-2">{{ include.header }}</h1>
+
+    <!-- Print each year and the papers published in that year -->
+    {% for year in paper_years %}
+        <h2 class="mx-4">{{year}}</h2>
+
+        {% assign papers_in_year = recent_papers | where: "year", year %}
+
+        {% for paper in papers_in_year %}
+            <div >
+                {% include paper-article.html paper=paper %}
+            </div>
+        {% endfor %}
+
+    {% endfor %}
+
+</div>
