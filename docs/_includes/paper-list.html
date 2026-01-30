@@ -4,13 +4,13 @@
 {% assign paper_years = recent_papers | map: "year" %} 
 {% assign paper_years = paper_years | uniq %}
 
-<div class="container-fluid mt-5">
+<div class="container-fluid">
 
-    <h1 class="section-header p-2">{{ include.header }}</h1>
+    <h1 class="section-header">{{ include.header }}</h1>
 
     <!-- Print each year and the papers published in that year -->
     {% for year in paper_years %}
-        <h2 class="mx-4">{{year}}</h2>
+        <h2>{{year}}</h2>
 
         {% assign papers_in_year = recent_papers | where: "year", year %}
 

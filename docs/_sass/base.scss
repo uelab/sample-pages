@@ -1,93 +1,93 @@
-// Styles for publications
+// // Styles for publications
 
-.artifact-title {
-  // font-size: $font-size-base;
-  // font-weight: $font-weight-medium;
-  // line-height: $line-height-sm;
-  word-wrap: break-word;
-}
+// .artifact-title {
+//   // font-size: $font-size-base;
+//   // font-weight: $font-weight-medium;
+//   // line-height: $line-height-sm;
+//   word-wrap: break-word;
+// }
 
-.artifact-title a {
-  // color: $link-color;
-  text-decoration: none;
-}
+// .artifact-title a {
+//   // color: $link-color;
+//   text-decoration: none;
+// }
 
-.artifact-title a:hover {
-  // color: $link-hover-color;
-  text-decoration: underline;
-}
+// .artifact-title a:hover {
+//   // color: $link-hover-color;
+//   text-decoration: underline;
+// }
 
-.pub-row-vert-layout {
-  // padding-top: $spacer;
-  // padding-bottom: $spacer;
-  position: relative;
-  min-height: 150px;
-}
+// .pub-row-vert-layout {
+//   // padding-top: $spacer;
+//   // padding-bottom: $spacer;
+//   position: relative;
+//   min-height: 150px;
+// }
 
-.pub-row-vert-layout p {
-  margin: 0;
-  padding: 0;
-}
+// .pub-row-vert-layout p {
+//   margin: 0;
+//   padding: 0;
+// }
 
-.pub-info {
-  // font-size: $font-size-sm;
-}
+// .pub-info {
+//   // font-size: $font-size-sm;
+// }
 
-.pub-title {
-  // font-weight: $font-weight-semibold;
-}
+// .pub-title {
+//   // font-weight: $font-weight-semibold;
+// }
 
-.pub-authors a {
-  // color: $body-color;
-  text-decoration: none;
-}
+// .pub-authors a {
+//   // color: $body-color;
+//   text-decoration: none;
+// }
 
-.pub-authors a:hover {
-  text-decoration: underline;
-}
+// .pub-authors a:hover {
+//   text-decoration: underline;
+// }
 
-.pub-stats {
-  // color: $secondary;
-}
+// .pub-stats {
+//   // color: $secondary;
+// }
 
-.pub-acceptance-rate {
-  // font-weight: $font-weight-light;
-}
+// .pub-acceptance-rate {
+//   // font-weight: $font-weight-light;
+// }
 
-.pub-award-text {
-  // color: $pink-600;
-  // font-weight: $font-weight-light;
-}
+// .pub-award-text {
+//   // color: $pink-600;
+//   // font-weight: $font-weight-light;
+// }
 
-.pub-thumbnail {
-  position: relative;
-}
+// .pub-thumbnail {
+//   position: relative;
+// }
 
-.pub-thumbnail-image {
-  // border: 1px solid $border-color;
-  width: 100%;
-  max-width: 135px;
-  margin: auto;
-}
+// .pub-thumbnail-image {
+//   // border: 1px solid $border-color;
+//   width: 100%;
+//   max-width: 135px;
+//   margin: auto;
+// }
 
-/* Hide thumbnail on very small screens */
-@media (max-width: 374px) {
-  .pub-thumbnail {
-    display: none;
-  }
-}
+// /* Hide thumbnail on very small screens */
+// @media (max-width: 374px) {
+//   .pub-thumbnail {
+//     display: none;
+//   }
+// }
 
-/* Show thumbnail as table cell on larger screens */
-@media (min-width: 375px) {
-  .pub-thumbnail {
-    width: 120px;
-    min-width: 120px;
-    display: table-cell;
-    vertical-align: top;
-    // padding-right: $spacer 3;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 10;
-  }
-}
+// /* Show thumbnail as table cell on larger screens */
+// @media (min-width: 375px) {
+//   .pub-thumbnail {
+//     width: 120px;
+//     min-width: 120px;
+//     display: table-cell;
+//     vertical-align: top;
+//     // padding-right: $spacer 3;
+//     position: relative;
+//     top: 0;
+//     left: 0;
+//     z-index: 10;
+//   }
+// }
