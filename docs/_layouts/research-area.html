@@ -16,7 +16,7 @@ layout: default
             <h3 class="section-header mt-5">Publications</h3>
             {% for publication in site.publications %}
                 {% if publication.research-areas contains page.slug %}
-                    {% include paper-card.html paper=publication %}
+                    {% include paper-article.html paper=publication %}
                 {% endif %}
             {% endfor}
         </div>
