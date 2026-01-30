@@ -20,6 +20,7 @@
 .pub-row-vert-layout {
   padding-top: $spacer;
   padding-bottom: $spacer;
+  font-size: $font-size-sm;
   position: relative;
   min-height: 150px;
 }
@@ -30,7 +31,10 @@
 }
 
 .pub-info {
-  font-size: $font-size-sm;
+  padding-bottom: var(--space-5);
+  vertical-align: top;
+  width: 100%;
+  position: relative;
 }
 
 .pub-title {
@@ -65,29 +69,7 @@
 
 .pub-thumbnail-image {
   border: 1px solid $border-color;
-  width: 100%;
+  width: 110px;
   max-width: 135px;
   margin: auto;
-}
-
-/* Hide thumbnail on very small screens */
-@media (max-width: 374px) {
-  .pub-thumbnail {
-    display: none;
-  }
-}
-
-/* Show thumbnail as table cell on larger screens */
-@media (min-width: 375px) {
-  .pub-thumbnail {
-    width: 120px;
-    min-width: 120px;
-    display: table-cell;
-    vertical-align: top;
-    padding-right: $spacer 3;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 10;
-  }
 }
