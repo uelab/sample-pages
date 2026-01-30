@@ -3,7 +3,7 @@
   <!-- TODO: Change the col per bootstrap grid  (https://getbootstrap.com/docs/5.3/layout/grid/) 
              and the spacing per (https://getbootstrap.com/docs/5.3/utilities/spacing/#notation) -->
   <div class="col pub-thumbnail">
-    <a href="{{ include.paper.download-link }}" class="pub-thumbnail-link">
+    <a href="{{ include.paper.download-link }}" target="_blank" class="pub-thumbnail-link">
         <img 
           src="{{ '/assets/img/' | append: include.paper.image | relative_url }}" 
           width="110"
@@ -17,7 +17,7 @@
   <div class="col-10 pub-info">
     
     <!-- Title -->
-    <a href="{{ include.paper.download-link }}">
+    <a href="{{ include.paper.download-link }}" target="_blank">
       <h3 class="artifact-title pub-title">{{include.paper.title}}</h3>
     </a>
 
@@ -62,10 +62,10 @@
     <!-- Download links in different formats -->
     <p>
         <span class="pub-download-links">
-          <a href="{{ include.paper.download-link }}">pdf</a>
+          <a href="{{ include.paper.download-link }}" target="_blank">pdf</a>
 
           {% if include.paper.award != nil %}
-            | <a href="https://doi.org/{{include.paper.doi}}">doi</a>
+            | <a href="https://doi.org/{{include.paper.doi}}" target="_blank">doi</a>
           {% endif %}
         </span>
     </p>
