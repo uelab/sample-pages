@@ -1,8 +1,6 @@
 <article class="row">
 
-  <div class="col">
-
-    <div class="pub-thumbnail">
+    <div class="col-1 pub-thumbnail">
       <a href="{{ include.paper.download-link }}" target="_blank" class="pub-thumbnail-link">
           <img 
             src="{{ '/assets/img/' | append: include.paper.image | relative_url }}"
@@ -11,7 +9,7 @@
       </a>
     </div>
   
-    <div class="pub-info">
+    <div class="col pub-info">
       
       <!-- Title -->
       <a href="{{ include.paper.download-link }}" target="_blank">
@@ -67,7 +65,5 @@
           </span>
       </p>
     </div>
-
-  </div>
 
 </article>
