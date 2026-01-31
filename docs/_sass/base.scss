@@ -1,15 +1,23 @@
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
 
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
 $font-weight-medium:          500 !default;
 $font-weight-semibold:        600 !default;
 
 $body-color: #353535;
 $body-bg: #FEFCF2;
+$secondary: #6c757d !default;
 
 $link-decoration: none;
 $link-hover-decoration: underline;
 $link-color: #145046;
+
+$pink:    #d63384 !default;
+$pink-600: shade-color($pink, 20%) !default;
+$award-color: $pink-600;
+$border-color: #dee2e6 !default;
 
 body {
   color: $body-color;
@@ -33,17 +41,17 @@ a:hover {
 
 // Styles for publications
 
-// .pub-row-vert-layout {
-//   // padding-top: $spacer;
-//   // padding-bottom: $spacer;
-//   position: relative;
-//   min-height: 150px;
-// }
+.pub-row-vert-layout {
+  // padding-top: $spacer;
+  // padding-bottom: $spacer;
+  position: relative;
+  min-height: 150px;
+}
 
-// .pub-row-vert-layout p {
-//   margin: 0;
-//   padding: 0;
-// }
+.pub-row-vert-layout p {
+  margin: 0;
+  padding: 0;
+}
 
 .pub-info {
   font-size: $font-size-sm;
@@ -53,34 +61,25 @@ a:hover {
   font-weight: $font-weight-semibold;
 }
 
-// .pub-authors a {
-//   // color: $body-color;
-//   text-decoration: none;
-// }
+.pub-stats {
+  color: $secondary;
+}
 
-// .pub-authors a:hover {
-//   text-decoration: underline;
-// }
+.pub-acceptance-rate {
+  font-weight: $font-weight-light;
+}
 
-// .pub-stats {
-//   // color: $secondary;
-// }
+.pub-award-text {
+  color: $award-color;
+  font-weight: $font-weight-light;
+}
 
-// .pub-acceptance-rate {
-//   // font-weight: $font-weight-light;
-// }
-
-// .pub-award-text {
-//   // color: $pink-600;
-//   // font-weight: $font-weight-light;
-// }
-
-// .pub-thumbnail {
-//   position: relative;
-// }
+.pub-thumbnail {
+  position: relative;
+}
 
 .pub-thumbnail-image {
-  // border: 1px solid $border-color;
+  border: 1px solid $border-color;
   width: 100%;
   // max-width: 135px;
   // margin: auto;
@@ -102,9 +101,9 @@ a:hover {
     // display: table-cell;
     // vertical-align: top;
     // // padding-right: $spacer 3;
-    // position: relative;
-    // top: 0;
-    // left: 0;
-    // z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
   }
 }
