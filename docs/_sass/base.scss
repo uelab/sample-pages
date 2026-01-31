@@ -41,6 +41,26 @@ a:hover {
   word-wrap: break-word;
 }
 
+.line-clamp-one-line {
+  text-overflow: ellipsis;
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@supports (-webkit-line-clamp: 2) {
+  .line-clamp {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .line-clamp:after {
+    display: none;
+  }
+}
+
 // Styles for publications
 
 .pub-row-vert-layout {

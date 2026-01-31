@@ -17,7 +17,7 @@
       </a>
 
       <!-- Authors -->
-      <p class="pub-authors">
+      <p class="pub-authors line-clamp">
         {% assign lastauthor = include.paper.authors | last %}
         {% for authorid in include.paper.authors %}
           {% assign labauthor = site.people | where_exp: "item", "item.slug == authorid" | first %}
@@ -32,7 +32,7 @@
       </p>
 
       <!-- Venue, acceptance rate, and award -->
-      <p class="pub-stats">
+      <p class="pub-stats line-clamp-one-line">
 
           <span class="pub-venue">
             {{include.paper.venue}}.
