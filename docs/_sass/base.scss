@@ -19,6 +19,8 @@ $pink-600: shade-color($pink, 20%) !default;
 $award-color: $pink-600;
 $border-color: #dee2e6 !default;
 
+$spacer: 1rem !default;
+
 body {
   color: $body-color;
   background-color: $body-bg;
@@ -42,8 +44,8 @@ a:hover {
 // Styles for publications
 
 .pub-row-vert-layout {
-  // padding-top: $spacer;
-  // padding-bottom: $spacer;
+  padding-top: $spacer;
+  padding-bottom: $spacer;
   position: relative;
   min-height: 150px;
 }
@@ -76,13 +78,14 @@ a:hover {
 
 .pub-thumbnail {
   position: relative;
+  margin-top: $spacer * 0.2;
+  // align-content: space-around;
 }
 
 .pub-thumbnail-image {
   border: 1px solid $border-color;
   width: 100%;
-  // max-width: 135px;
-  // margin: auto;
+  margin: auto;
 }
 
 /* Hide thumbnail on very small screens */
@@ -92,15 +95,11 @@ a:hover {
   }
 }
 
-/* Show thumbnail as table cell on larger screens */
 @media (min-width: 375px) {
   .pub-thumbnail {
     width: 110px;
     height: 110px;
     min-width: 110px;
-    // display: table-cell;
-    // vertical-align: top;
-    // // padding-right: $spacer 3;
     position: relative;
     top: 0;
     left: 0;
