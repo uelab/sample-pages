@@ -14,6 +14,11 @@ $link-decoration: none;
 $link-hover-decoration: underline;
 $link-color: #145046;
 
+body {
+  color: $body-color;
+  background-color: $body-bg;
+}
+
 a {
   text-decoration: none;
   color: $link-color;
