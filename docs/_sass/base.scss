@@ -41,25 +41,28 @@ a:hover {
   word-wrap: break-word;
 }
 
-.line-clamp-one-line {
-  text-overflow: ellipsis;
-  /* Required for text-overflow to do anything */
-  white-space: nowrap;
-  overflow: hidden;
-}
+// Something about the line clamping is making the pub-info
+// column move to a second line in the row when the browser
+// width gets narrower.  It's not clear from playing with.
+// .line-clamp-one-line {
+//   text-overflow: ellipsis;
+//   /* Required for text-overflow to do anything */
+//   white-space: nowrap;
+//   overflow: hidden;
+// }
 
-@supports (-webkit-line-clamp: 2) {
-  .line-clamp {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }
+// @supports (-webkit-line-clamp: 2) {
+//   .line-clamp {
+//     overflow: hidden;
+//     display: -webkit-box;
+//     -webkit-line-clamp: 2;
+//     -webkit-box-orient: vertical;
+//   }
 
-  .line-clamp:after {
-    display: none;
-  }
-}
+//   .line-clamp:after {
+//     display: none;
+//   }
+// }
 
 // Styles for publications
 
@@ -98,8 +101,10 @@ a:hover {
 
 .pub-thumbnail {
   position: relative;
+  // padding-right: 0px;
+  // padding-left: 0px;
   margin-top: $spacer * 0.2;
-  // align-content: space-around;
+  align-content: space-around;
 }
 
 .pub-thumbnail-image {
