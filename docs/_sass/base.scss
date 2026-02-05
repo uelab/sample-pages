@@ -1,21 +1,84 @@
-// Styles for publications
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+
+$body-color: #353535;
+$body-bg: #FEFCF2;
+$secondary: #6c757d !default;
+
+$link-decoration: none;
+$link-hover-decoration: underline;
+$link-color: #145046;
+
+$pink:    #d63384 !default;
+$pink-600: shade-color($pink, 20%) !default;
+$award-color: $pink-600;
+$border-color: #dee2e6 !default;
+
+$spacer: 1rem !default;
+
+body {
+  color: $body-color;
+  background-color: $body-bg;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// // TODO: remove -- this was also a test.
+// // Override bootstrap navbar styling
+// .navbar {
+//   // These are text colors of the menu items in the nav bar
+//   --bs-navbar-color: #ff0000;
+//   --bs-navbar-hover-color: #00ff00;
+//   --bs-navbar-disabled-color: #0000ff;
+//   --bs-navbar-active-color: #ffff00; // <-- this is the one to change to make more bold, likely
+// }
 
 .artifact-title {
   font-size: $font-size-base;
   font-weight: $font-weight-medium;
-  line-height: $line-height-sm;
   word-wrap: break-word;
 }
 
-.artifact-title a {
-  color: $link-color;
-  text-decoration: none;
-}
+// Something about the line clamping is making the pub-info
+// column move to a second line in the row when the browser
+// width gets narrower.  It's not clear from playing with.
 
-.artifact-title a:hover {
-  color: $link-hover-color;
-  text-decoration: underline;
-}
+// .line-clamp-one-line {
+//   // Doesn't cause issue
+//   text-overflow: ellipsis;
+//   /* Required for text-overflow to do anything */
+//   white-space: nowrap; // <-- causes issue
+//   // Doesn't cause issue
+//   overflow: hidden;
+// }
+
+// This one being active does NOT cause the row issue.
+// @supports (-webkit-line-clamp: 2) {
+//   .line-clamp {
+//     overflow: hidden;
+//     display: -webkit-box;
+//     -webkit-line-clamp: 2;
+//     -webkit-box-orient: vertical;
+//   }
+
+//   .line-clamp:after {
+//     display: none;
+//   }
+// }
+
+// Styles for publications
 
 .pub-row-vert-layout {
   padding-top: $spacer;
@@ -37,15 +100,6 @@
   font-weight: $font-weight-semibold;
 }
 
-.pub-authors a {
-  color: $body-color;
-  text-decoration: none;
-}
-
-.pub-authors a:hover {
-  text-decoration: underline;
-}
-
 .pub-stats {
   color: $secondary;
 }
@@ -55,18 +109,21 @@
 }
 
 .pub-award-text {
-  color: $pink-600;
+  color: $award-color;
   font-weight: $font-weight-light;
 }
 
 .pub-thumbnail {
   position: relative;
+  // padding-right: 0px;
+  // padding-left: 0px;
+  margin-top: $spacer * 0.2;
+  align-content: space-around;
 }
 
 .pub-thumbnail-image {
   border: 1px solid $border-color;
   width: 100%;
-  max-width: 135px;
   margin: auto;
 }
 
@@ -77,14 +134,11 @@
   }
 }
 
-/* Show thumbnail as table cell on larger screens */
 @media (min-width: 375px) {
   .pub-thumbnail {
-    width: 120px;
-    min-width: 120px;
-    display: table-cell;
-    vertical-align: top;
-    padding-right: $spacer 3;
+    width: 110px;
+    height: 110px;
+    min-width: 110px;
     position: relative;
     top: 0;
     left: 0;
