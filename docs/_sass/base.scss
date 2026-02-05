@@ -35,6 +35,16 @@ a:hover {
   text-decoration: underline;
 }
 
+// // TODO: remove -- this was also a test.
+// // Override bootstrap navbar styling
+// .navbar {
+//   // These are text colors of the menu items in the nav bar
+//   --bs-navbar-color: #ff0000;
+//   --bs-navbar-hover-color: #00ff00;
+//   --bs-navbar-disabled-color: #0000ff;
+//   --bs-navbar-active-color: #ffff00; // <-- this is the one to change to make more bold, likely
+// }
+
 .artifact-title {
   font-size: $font-size-base;
   font-weight: $font-weight-medium;
@@ -44,13 +54,17 @@ a:hover {
 // Something about the line clamping is making the pub-info
 // column move to a second line in the row when the browser
 // width gets narrower.  It's not clear from playing with.
+
 // .line-clamp-one-line {
+//   // Doesn't cause issue
 //   text-overflow: ellipsis;
 //   /* Required for text-overflow to do anything */
-//   white-space: nowrap;
+//   white-space: nowrap; // <-- causes issue
+//   // Doesn't cause issue
 //   overflow: hidden;
 // }
 
+// This one being active does NOT cause the row issue.
 // @supports (-webkit-line-clamp: 2) {
 //   .line-clamp {
 //     overflow: hidden;
