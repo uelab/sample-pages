@@ -35,3 +35,17 @@ The file structure is largely dictated by Jekyll.  To learn more about the follo
 ### Data model
 
 The data files held in directories like `_people` and `_projects` provide the content used to render the pages according to the templates defined in `_includes` and `_layouts`.  They describe the people involved in the User Empowerment Lab and all the cool stuff they're working on!  The site's data model is the set of properties each of the objects (people, projects, etc.) has, and how they're related to each other.  
+
+## FAQ
+
+### How can I get set up to contribute to the site?
+
+1. Set up GitHub
+2. Set up Ruby (TODO: is this needed to keep _site files up to date?)
+
+### How can I myself as a person to the site or update my person profile?
+
+1. Where are the people files
+2. What is the meta-data required (TODO: do we need a separate data model README?)
+
+### How can I add a project or publication to the site?
