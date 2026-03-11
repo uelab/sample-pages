@@ -1,0 +1,28 @@
+    {% assign research_areas = include.values | reverse %}
+
+    <nav class="navbar navbar-expand-sm sticky-top" style="background-color: #FFFCE9;" data-bs-theme="light">
+
+        <!-- Navbar content -->
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">Navbar Brand</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+                    {% for value in research_areas %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#slide-{{value.slug}}">{{value.name}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
