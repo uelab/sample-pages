@@ -1,0 +1,10 @@
+{% assign research-area = include.research-area %}
+{% assign color = include.color %}
+
+            <div class="slide">
+                <!-- TODO: add color -->
+                <!-- <h2 class="slide-header-{{color}}"> {{research-area.name}} </h2> -->
+                <h2 class="slide-header-blue"> {{research-area.name}} </h2>
+                {{research-area.content | markdownify }}
+                <div class="slide-learn-more"><a href="{{ include.research-area.url | relative_url }}">Learn more</a></div>
+            </div>
