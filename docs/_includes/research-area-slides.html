@@ -1,8 +1,6 @@
 {% assign research_areas = include.values | reverse %}
-    <main>
         {% for value in research_areas %}
         <section id="slide-{{value.slug}}">
             {% include research-area-slide.html research-area=value %}
         </section>
         {% endfor %}
-    </main>
