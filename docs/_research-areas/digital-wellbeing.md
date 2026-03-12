@@ -4,4 +4,4 @@ name: Digital Wellbeing
 date: 2020-01-01
 ---
 
-AI content
+Digital wellbeing content

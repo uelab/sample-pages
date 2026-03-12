@@ -1,6 +1,4 @@
 ---
-layout: default
+layout: research-areas
 title: Research Areas
 ---
-
-{% include research-areas-container.html header="Research Areas" %}
