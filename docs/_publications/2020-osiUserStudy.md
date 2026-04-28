@@ -5,7 +5,7 @@ venue: "Proceedings of the 38th annual ACM conference on human factors in comput
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/osiUserStudy.pdf
 citation: #
-research-areas: []
+research-areas: [user-privacy, human-relationships]
 publicationtype: 
 doi: 
 image: osiUserStudy.avif

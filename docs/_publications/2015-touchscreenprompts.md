@@ -5,7 +5,7 @@ venue: "Interaction Design and Children (IDC), 2015"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/TouchscreenPrompts.pdf
 citation: #
-research-areas: [child-tech, kids-games]
+research-areas: [digital-youth, kids-games]
 publicationtype: conference
 doi: 
 materials:

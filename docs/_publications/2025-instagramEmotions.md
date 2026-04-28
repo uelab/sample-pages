@@ -5,7 +5,7 @@ venue: "Proceedings of the 43rd annual ACM Conference on Human Factors in Comput
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/instagramEmotions.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, social-media, dark-patterns]
 publicationtype: 
 doi: 
 image: instagramEmotions.avif

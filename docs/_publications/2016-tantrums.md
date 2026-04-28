@@ -5,7 +5,7 @@ venue: "Human Factors in Computing Systems (CHI), 2016"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/ScreenTimeTantrums.pdf
 citation: #
-research-areas: [screentime-tools, family-tech, child-tech, digital-wellbeing]
+research-areas: [family-tech, smarphone-overuse, human-relationships]
 publicationtype: conference
 doi: 10.1145/2858036.2858278
 materials:

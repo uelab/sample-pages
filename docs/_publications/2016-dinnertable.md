@@ -5,7 +5,7 @@ venue: "Computer Supported Cooperative Work (CSCW), 2016"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/FamilyTechnologyRules.pdf
 citation: #
-research-areas: [family-tech]
+research-areas: [family-tech, human-relationships]
 publicationtype: conference
 doi: 
 materials:

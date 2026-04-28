@@ -5,7 +5,7 @@ venue: "Proceedings of the 13th annual ACM conference on tangible, embedded, and
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/mealtimePrototypes.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, family-tech]
 publicationtype: 
 doi: 
 image: mealtimePrototypes.avif

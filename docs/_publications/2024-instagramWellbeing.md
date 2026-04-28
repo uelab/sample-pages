@@ -5,7 +5,7 @@ venue: "In Proceedings of the 23rd Annual ACM Interaction Design and Children Co
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/instagramWellbeing.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, social-media, dark-patterns]
 publicationtype: 
 doi: 
 image: instagramWellbeing.avif

@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Screentime Tools and Parental Controls
+name: Social Media Design
 date: 2020-01-01
 ---
 

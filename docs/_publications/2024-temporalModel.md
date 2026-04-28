@@ -5,7 +5,7 @@ venue: Proceedings of the ACM on Human-Computer Interaction (CSCW, to appear)
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/HardConversationsDesign.pdf
 citation: #
-research-areas: []
+research-areas: [social-media, human-relationships]
 publicationtype: 
 doi: 
 image: temporalModel.avif

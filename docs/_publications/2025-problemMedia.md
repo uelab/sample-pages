@@ -5,7 +5,7 @@ venue: The Journal of Online Trust and Safety (in press)
 keywords: []
 download-link: 
 citation: #
-research-areas: []
+research-areas: [smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
 image: problemMedia.avif

@@ -5,7 +5,7 @@ venue: "Human Factors in Computing Systems (CHI), 2017"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/PokemonGO.pdf
 citation: #
-research-areas: [family-tech, kids-games]
+research-areas: [family-tech, digital-youth, kids-games, human-relationships]
 publicationtype: conference
 doi: 10.1145/3025453.3025761
 materials:

@@ -5,7 +5,7 @@ venue: Proceedings of the ACM on Human-Computer Interaction, 5(CSCW1), pp.1-22
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/someoneIsWrong.pdf
 citation: #
-research-areas: []
+research-areas: [social-media, human-relationships]
 publicationtype: 
 doi: 
 image: someoneIsWrong.avif

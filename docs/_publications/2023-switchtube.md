@@ -5,7 +5,7 @@ venue:  Proceedings of the 40th annual ACM conference on human factors in comput
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/switchtube.pdf
 citation: #
-research-areas: []
+research-areas: [smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
 image: switchtube.avif

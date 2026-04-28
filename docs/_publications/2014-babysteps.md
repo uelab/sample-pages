@@ -5,7 +5,7 @@ venue: "Human Factors in Computing Systems (CHI), 2014"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/BabySteps.pdf
 citation: #
-research-areas: [family-tech, socialmedia-wellbeing]
+research-areas: [family-tech]
 publicationtype: conference
 doi: 
 materials:

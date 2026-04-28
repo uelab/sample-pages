@@ -5,7 +5,7 @@ venue: Proceedings of the ACM on Human-Computer Interaction (CSCW, to appear)
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/BeReal.pdf
 citation: #
-research-areas: []
+research-areas: [social-media, dark-patterns, human-relationships]
 publicationtype: 
 doi: 
 image: beReal.avif

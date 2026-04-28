@@ -5,7 +5,7 @@ venue: Proceedings of the 2024 AAAI/ACM Conference on AI, Ethics, and Society (t
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/TeenBias.pdf
 citation: #
-research-areas: []
+research-areas: [human-AI, digital-youth]
 publicationtype: 
 doi: 
 image: teenBias.avif

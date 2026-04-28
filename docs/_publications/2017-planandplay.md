@@ -5,7 +5,7 @@ venue: "Interaction Design and Children (IDC), 2017"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/PlanAndPlay.pdf
 citation: #
-research-areas: [child-tech, family-tech, digital-wellbeing, screentime-tools]
+research-areas: [digital-youth, family-tech, smartphone-overuse]
 publicationtype: conference
 doi: 10.1145/3078072.3079752
 materials:

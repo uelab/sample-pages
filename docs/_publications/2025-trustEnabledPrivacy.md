@@ -5,7 +5,7 @@ venue: Proceedings of the 21st Symposium on Usable Privacy and Security (SOUPS â
 keywords: []
 download-link:
 citation: #
-research-areas: []
+research-areas: [digital-youth, dark-patterns, social-media, user-privacy, human-relationships]
 publicationtype: 
 doi: 
 image: trustEnabledPrivacy.avif

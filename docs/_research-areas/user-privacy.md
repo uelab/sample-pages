@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Teens and Technology
+name: User Privacy
 date: 2020-01-01
 ---
 

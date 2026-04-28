@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Social Media and Human Wellbeing
+name: Technology and Human Relationships
 date: 2020-01-01
 ---
 

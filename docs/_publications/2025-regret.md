@@ -5,7 +5,7 @@ venue: "Proceedings of the 43rd annual ACM Conference on Human Factors in Comput
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/regret.pdf
 citation: #
-research-areas: []
+research-areas: [dark-patterns, smartphone-overuse, social-media]
 publicationtype: 
 doi: 
 image: regret.avif

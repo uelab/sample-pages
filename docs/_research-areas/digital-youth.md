@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Children's Technology
+name: Digital Youth
 date: 2020-01-01
 ---
 

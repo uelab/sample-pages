@@ -5,7 +5,7 @@ venue: "Human Factors in Computing Systems (CHI), 2016"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/MyTime.pdf
 citation: #
-research-areas: [screentime-tools, digital-wellbeing]
+research-areas: [smartphone-overuse]
 publicationtype: conference
 doi: 10.1145/2858036.2858403
 materials:

@@ -5,7 +5,7 @@ venue: "Human Factors in Computing Systems (CHI), 2015"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/TextingWhileParenting.pdf
 citation: #
-research-areas: [family-tech, digital-wellbeing]
+research-areas: [family-tech, smartphone-overuse, human-relationships]
 publicationtype: conference
 doi: 
 materials:

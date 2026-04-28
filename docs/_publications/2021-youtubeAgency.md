@@ -5,7 +5,7 @@ venue: "Proceedings of the 39th annual ACM conference on human factors in comput
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/youtubeAgency.pdf
 citation: #
-research-areas: []
+research-areas: [smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
 image: youtubeAgency.avif

@@ -1,6 +1,6 @@
 ---
 layout: research-area
-name: Artificial Intelligence and Human Wellbeing
+name: Extended Use
 date: 2020-01-01
 ---
 

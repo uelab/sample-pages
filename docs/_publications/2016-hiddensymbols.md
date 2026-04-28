@@ -5,7 +5,7 @@ venue: "International Journal of Human Computer Studies (IJHCS)"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/HiddenSymbols.pdf
 citation: #
-research-areas: [child-tech, kids-games]
+research-areas: [digital-youth, kids-games]
 publicationtype: journal
 doi: 
 materials:

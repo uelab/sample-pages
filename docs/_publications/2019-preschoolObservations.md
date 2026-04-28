@@ -5,7 +5,7 @@ venue: "Proceedings of the ACM on Human-Computer Interaction, CSCW (formerly the
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/preschoolObservations.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth]
 publicationtype: 
 doi: 
 image: preschoolObservations.avif

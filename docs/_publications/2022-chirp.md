@@ -5,7 +5,7 @@ venue: Proceedings of the 40th annual ACM conference on human factors in computi
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/chirp.pdf
 citation: #
-research-areas: []
+research-areas: [social-media, smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
 image: chirp.avif

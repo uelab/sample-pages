@@ -5,7 +5,7 @@ venue: "Interaction Design and Children, 2013"
 keywords: [Autism, ASD, Behavioral Therapy, PRT, Pivotal Response Therapy, Video Games, Game Design, Education]
 download-link: https://faculty.washington.edu/alexisr/GoGoGames.pdf
 citation: #
-research-areas: [kids-games]
+research-areas: [digital-youth, kids-games, family-tech]
 publicationtype: conference
 doi: 
 materials:

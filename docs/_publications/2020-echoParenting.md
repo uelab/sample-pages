@@ -5,7 +5,7 @@ venue: "Proceedings of the 38th annual ACM conference on human factors in comput
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/echoParenting.pdf
 citation: #
-research-areas: []
+research-areas: [family-tech, digital-youth, human-AI, human-relationships]
 publicationtype: 
 doi: 
 image: echoParenting.avif

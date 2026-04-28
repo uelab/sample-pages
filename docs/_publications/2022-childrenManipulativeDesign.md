@@ -5,7 +5,7 @@ venue: JAMA Open, 5(6)
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/childrenManipulativeDesign.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, dark-patterns, kids-games]
 publicationtype: 
 doi: 
 image: childrenManipulativeDesign.avif

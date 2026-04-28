@@ -5,7 +5,7 @@ venue: Learning, Media and Technology, 1-16
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/CAontologies.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, family-tech, human-AI, human-relationships]
 publicationtype: 
 doi: 
 image: caontologies.avif

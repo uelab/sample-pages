@@ -5,7 +5,7 @@ venue: "Proceedings of the 37th annual ACM conference on human factors in comput
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/creepy.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, dark-patterns, human-relationships]
 publicationtype: 
 doi: 
 image: creepy.avif

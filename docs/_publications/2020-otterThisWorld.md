@@ -5,7 +5,7 @@ venue: "Proceedings of the 19th annual ACM conference on interaction design and 
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/otterThisWorld.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, kids-games]
 publicationtype: 
 doi: 
 image: otterThisWorld.avif

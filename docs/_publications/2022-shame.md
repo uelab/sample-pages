@@ -5,7 +5,7 @@ venue: Proceedings of the ACM on Human-Computer Interaction, 6(CSCW2), pp. 1-18
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/shame.pdf
 citation: #
-research-areas: []
+research-areas: [social-media, dark-patterns, human-relationships]
 publicationtype: 
 doi: 
 image: shame.avif

@@ -5,7 +5,7 @@ venue: "In Proceedings of the 23rd Annual ACM Interaction Design and Children Co
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/kidsGamesDissociation.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, smartphone-overuse, dark-patterns, kids-games]
 publicationtype: 
 doi: 
 image: kidsGamesDissociation.avif

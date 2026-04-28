@@ -5,7 +5,7 @@ venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Te
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/isSomeoneListening.pdf
 citation: #
-research-areas: []
+research-areas: [user-privacy, dark-patterns]
 publicationtype: 
 doi: 
 image: isSomeoneListening.avif

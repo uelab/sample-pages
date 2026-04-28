@@ -5,7 +5,7 @@ venue: International Journal of Child-Computer Interaction, Special Issue in Rev
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/PlatformsAndSystemicChange.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
 image: moralPanic.avif

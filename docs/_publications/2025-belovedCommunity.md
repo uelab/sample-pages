@@ -5,7 +5,7 @@ venue: Proceedings of the 43rd annual ACM Conference on Human Factors in Computi
 keywords: []
 download-link: 
 citation: #
-research-areas: []
+research-areas: [dark-patterns, user-privacy, human-relationships]
 publicationtype: 
 doi: 
 image: belovedCommunity.avif

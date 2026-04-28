@@ -5,7 +5,7 @@ venue: "Proceedings of the 37th annual ACM conference on human factors in comput
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/everythingsThePhone.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, family-tech, smartphone-overuse, dark-patterns, human-relationships]
 publicationtype: 
 doi: 
 image: everythingsThePhone.avif

@@ -1,13 +1,13 @@
 ---
 title: "Let's Play! Digital and Analog Play Patterns between Preschoolers and Parents"
-authors: [alexis-hiniker, "Sharon Heung", "Sungsoo Hong", "Julie A. Kientz"]
+authors: [alexis-hiniker, "Bongshin Lee", "Julie A. Kientz", "Jenny Radesky"]
 venue: "Human Factors in Computing Systems (CHI), 2018"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/TabletsAndToys.pdf
 citation: #
-research-areas: [child-tech, family-tech, digital-wellbeing, manipulative-design, screentime-tools]
+research-areas: [digital-youth, family-tech, smartphone-overuse, dark-patterns, human-relationships]
 publicationtype: conference
-doi: 10.1145/3173574.3173828
+doi: 10.1145/3173574.3174233
 materials:
 image: letsplay.avif
 year: 2018

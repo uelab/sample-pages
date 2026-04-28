@@ -5,7 +5,7 @@ venue: "Computers and Accessibility (ASSETS), 2017"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/GoGoGamesEvaluation.pdf
 citation: #
-research-areas: [child-tech, kids-games]
+research-areas: [digital-youth, kids-games]
 publicationtype: conference
 doi: 10.1145/3132525.3132551
 materials:

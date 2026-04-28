@@ -5,7 +5,7 @@ venue:   Proceedings of the 43rd annual ACM Conference on Human Factors in Compu
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/avatars.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, kids-games]
 publicationtype: 
 doi: 
 image: avatars.avif

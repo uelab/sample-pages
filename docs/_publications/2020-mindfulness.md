@@ -5,7 +5,7 @@ venue: "Proceedings of the ACM conference on Designing Interactive Systems (DIS 
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/mindfulness.pdf
 citation: #
-research-areas: []
+research-areas: [smartphone-overuse]
 publicationtype: 
 doi: 
 image: mindfulness.avif

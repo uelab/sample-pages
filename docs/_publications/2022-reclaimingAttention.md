@@ -5,7 +5,7 @@ venue: Interactions, 29(4), pp. 40-44
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/reclaimingAttention.pdf
 citation: #
-research-areas: []
+research-areas: [smartphone-overuse, dark-patterns, human-relationships]
 publicationtype: 
 doi: 
 image: reclaimingAttention.gif

@@ -5,7 +5,7 @@ venue: "Ubiquitous Computing (UbiComp), 2016"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/UsesAndGratifications.pdf
 citation: #
-research-areas: [screentime-tools, digital-wellbeing]
+research-areas: [smartphone-overuse, dark-patterns]
 publicationtype: conference
 doi: 10.1145/2971648.2971762
 materials:
