@@ -67,7 +67,11 @@
                 {% endif %}
 
                 {% if include.paper.video != nil %}
-                | <a href="{{include.paper.doi}}" target="_blank">video</a>
+                | <a href="{{include.paper.video}}" target="_blank">video</a>
+                {% endif %}
+
+                {% if include.paper.code != nil %}
+                | <a href="{{include.paper.code}}" target="_blank">code</a>
                 {% endif %}
 
             </span>

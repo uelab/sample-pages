@@ -8,6 +8,7 @@ citation: #
 research-areas: [social-media, dark-patterns, human-relationships]
 publicationtype: 
 doi: 
+video: https://youtu.be/hdBQJIyF_qw
 image: shame.avif
 year: 2022
 award: 

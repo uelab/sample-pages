@@ -9,6 +9,7 @@ research-areas: [digital-youth, family-tech, smartphone-overuse, human-relations
 publicationtype: 
 doi: 
 image: notScreenTime.avif
+video: https://www.youtube.com/watch?v=TSILOpDbipI
 year: 2021
 award: 
 acceptance: "Acceptance rate: 26%"

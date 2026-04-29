@@ -8,6 +8,7 @@ citation: #
 research-areas: [family-tech]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=SrkACSynRRw
 image: parentingPandemic.avif
 year: 2021
 award: 

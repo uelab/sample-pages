@@ -8,6 +8,7 @@ citation: #
 research-areas: [digital-youth, family-tech, smartphone-overuse, dark-patterns]
 publicationtype: conference
 doi: 10.1145/3173574.3174233
+video: https://youtu.be/_RqiqFuqBKQ
 materials:
 image: cocosvideos.avif
 year: 2018

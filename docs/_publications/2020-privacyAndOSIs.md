@@ -8,6 +8,7 @@ citation: #
 research-areas: [user-privacy]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=H7TWTVpHIaw
 image: privacyAndOSIs.avif
 year: 2020
 award: 

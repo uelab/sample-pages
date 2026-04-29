@@ -8,6 +8,7 @@ citation: #
 research-areas: [digital-youth, family-tech]
 publicationtype: 
 doi: 
+code: https://github.com/uelab/KidsRecorder
 image: anchoredAudioSampling.avif
 year: 2019
 award: Best paper award (top 1%)

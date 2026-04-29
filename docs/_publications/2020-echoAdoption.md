@@ -8,6 +8,7 @@ citation: #
 research-areas: [family-tech, human-AI]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=FnGgumqhJnY
 image: echoAdoption.avif
 year: 2020
 award: 

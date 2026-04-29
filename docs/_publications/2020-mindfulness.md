@@ -8,6 +8,7 @@ citation: #
 research-areas: [smartphone-overuse]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=wEskur-aKEU
 image: mindfulness.avif
 year: 2020
 award: 

@@ -8,6 +8,7 @@ citation: #
 research-areas: [smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=SCHpR2nKFTU
 image: switchtube.avif
 year: 2023
 award: "Best paper honorable mention (top 5%)"
