@@ -5,9 +5,10 @@ venue: Proceedings of the 40th annual ACM conference on human factors in computi
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/SafetyApps.pdf
 citation: #
-research-areas: []
+research-areas: [dark-patterns, user-privacy]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=BhpQ33jS6x0
 image: safetyApps.avif
 year: 2023
 award: "Best paper award (top 1%)"

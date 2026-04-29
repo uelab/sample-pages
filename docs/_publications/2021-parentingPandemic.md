@@ -5,9 +5,10 @@ venue: "Proceedings of the ACM on Human-Computer Interaction, 5(CSCW2), pp.1-39"
 keywords: []
 download-link: 
 citation: #
-research-areas: []
+research-areas: [family-tech]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=SrkACSynRRw
 image: parentingPandemic.avif
 year: 2021
 award: 

@@ -5,7 +5,7 @@ venue: Proceedings of the ACM on Human-Computer Interaction (CSCW 2025, to appea
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/privacyAsSocialNorm.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, social-media, user-privacy]
 publicationtype: 
 doi: 
 image: privacySocialNorm.avif

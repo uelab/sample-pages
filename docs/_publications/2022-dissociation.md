@@ -5,9 +5,11 @@ venue: Proceedings of the 40th annual ACM conference on human factors in computi
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/dissociation.pdf
 citation: #
-research-areas: []
+research-areas: [social-media, smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=s8Zf8bRB1lw
+code: https://github.com/uelab/normative-dissociation
 image: dissociation.avif
 year: 2022
 award: 

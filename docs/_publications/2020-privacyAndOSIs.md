@@ -5,9 +5,10 @@ venue: "Proceedings on 20th annual Privacy Enhancing Technologies Symposium (PoP
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/privacyAndOSIs.pdf
 citation: #
-research-areas: []
+research-areas: [user-privacy]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=H7TWTVpHIaw
 image: privacyAndOSIs.avif
 year: 2020
 award: 

@@ -5,9 +5,10 @@ venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Te
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/echoAdoption.pdf
 citation: #
-research-areas: []
+research-areas: [family-tech, human-AI]
 publicationtype: 
 doi: 
+video: https://www.youtube.com/watch?v=FnGgumqhJnY
 image: echoAdoption.avif
 year: 2020
 award: 

@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% capture timeline %} {{ page.start-date | date: "%Y" }} - {{ page.end-date | date: "%Y" | default: "Present" }} {% endcapture %}
+{% assign sorted_papers = site.publications | sort: "year" | reverse %}
 
 <div class="container-fluid p-5 bg-primary text-white text-center">
     <h1>{{ page.name }}</h1>
@@ -11,13 +12,13 @@ layout: default
 <div class="container mt-5">
     <div class="row">
         <div class="col-lg-9">
-            <h3 class="section-header">Project Description</h3>    
+            <h3 class="section-header">Project Description</h3>
             <p>{{ content | markdownify }}</p>
             <h3 class="section-header mt-5">Publications</h3>
-            {% for publication in site.publications %}
-                {% if publication.research-areas contains page.slug %}
-                    {% include paper-article.html paper=publication %}
-                {% endif %}
+            {% for publication in sorted_papers %}
+            {% if publication.research-areas contains page.slug %}
+            {% include paper-article.html paper=publication %}
+            {% endif %}
             {% endfor}
         </div>
         <div class="col-lg-3">

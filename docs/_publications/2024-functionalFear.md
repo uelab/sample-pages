@@ -5,7 +5,7 @@ venue: In Proceedings of the 2024 ACM Conference on Designing Interactive System
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/functionalFear.pdf
 citation: #
-research-areas: []
+research-areas: [dark-patterns, user-privacy, social-media]
 publicationtype: 
 doi: 
 image: functionalFear.avif

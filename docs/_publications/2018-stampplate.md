@@ -5,7 +5,7 @@ venue: "Interaction Design and Children (IDC), 2018"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/stampPlate.pdf
 citation: #
-research-areas: [child-tech]
+research-areas: [digital-youth, kids-games]
 publicationtype: conference
 doi: 10.1145/3202185.3202759
 materials:

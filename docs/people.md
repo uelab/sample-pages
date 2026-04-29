@@ -10,6 +10,8 @@ title: People
 
 {% assign alumni = site.people | where_exp : "item", "item.role == 'Alum'" | sort: "graduation-year" | reverse %}
 
-{% include member-grid.html header="People" values=current %}
+{% assign collaborators = site.people | where_exp : "item", "item.role == 'Faculty'" | sort: "last-name" %}
 
+{% include member-grid.html header="Lab Members" values=current %}
 {% include member-grid.html header="Alumni" values=alumni %}
+{% include member-grid.html header="Faculty Collaborators" values=collaborators %}

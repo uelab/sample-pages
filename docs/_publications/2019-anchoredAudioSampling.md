@@ -5,9 +5,10 @@ venue: "Proceedings of the 37th annual ACM conference on human factors in comput
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/anchoredAudioSampling.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, family-tech]
 publicationtype: 
 doi: 
+code: https://github.com/uelab/KidsRecorder
 image: anchoredAudioSampling.avif
 year: 2019
 award: Best paper award (top 1%)

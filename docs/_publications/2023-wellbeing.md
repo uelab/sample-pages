@@ -5,7 +5,7 @@ venue:  Proceedings of the 22nd Annual ACM Interaction Design and Children Confe
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/wellbeing.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, user-privacy, smartphone-overuse, dark-patterns]
 publicationtype: 
 doi: 
 image: wellbeing.avif

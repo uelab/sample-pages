@@ -5,7 +5,7 @@ venue: "Proceedings of the 18th annual ACM conference on interaction design and 
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/noTouchPig.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, kids-games]
 publicationtype: 
 doi: 
 image: noTouchPig.avif

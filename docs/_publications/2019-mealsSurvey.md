@@ -5,7 +5,7 @@ venue: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous T
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/mealsSurvey.pdf
 citation: #
-research-areas: []
+research-areas: [family-tech]
 publicationtype: 
 doi: 
 image: mealsSurvey.avif

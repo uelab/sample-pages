@@ -5,7 +5,7 @@ venue: Proceedings of the 20th annual ACM conference on interaction design and c
 keywords: []
 download-link: http://faculty.washington.edu/alexisr/CATransfer.pdf
 citation: #
-research-areas: []
+research-areas: [digital-youth, family-tech, human-AI, human-relationships]
 publicationtype: 
 doi: 
 image: catransfer.avif

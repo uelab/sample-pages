@@ -5,7 +5,7 @@ venue: Proceedings of the 2025 AAAI/ACM Conference on AI, Ethics, and Society (A
 keywords: []
 download-link:
 citation: #
-research-areas: []
+research-areas: [human-AI, human-relationships]
 publicationtype: 
 doi: 
 image: nonviolentDesign.avif

@@ -5,7 +5,7 @@ venue: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous T
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/meaninglessPhoneUse.pdf
 citation: #
-research-areas: [digital-wellbeing, screentime-tools]
+research-areas: [smartphone-overuse, social-media, dark-patterns, human-relationships]
 publicationtype: journal
 doi: 10.1145/3191754
 materials:

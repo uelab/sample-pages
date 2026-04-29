@@ -5,9 +5,10 @@ venue: "Human Factors in Computing Systems (CHI), 2018"
 keywords: []
 download-link: https://faculty.washington.edu/alexisr/CocosVideos.pdf
 citation: #
-research-areas: [child-tech, family-tech, digital-wellbeing]
+research-areas: [digital-youth, family-tech, smartphone-overuse, dark-patterns]
 publicationtype: conference
 doi: 10.1145/3173574.3174233
+video: https://youtu.be/_RqiqFuqBKQ
 materials:
 image: cocosvideos.avif
 year: 2018
