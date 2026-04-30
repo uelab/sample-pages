@@ -145,3 +145,38 @@ a:hover {
     z-index: 10;
   }
 }
+
+// Styles for research areas
+        // .research-areas section {
+        //   border: 2px solid pink;
+        //   padding-top: 4.4rem;
+        // }
+        .slide {
+            min-height: 320px;
+            position: relative;
+        }
+        .slide p {
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+        .slide h2 {
+            padding: 1rem;
+            text-align: center;
+        }
+        .slide-header-red
+        {
+            background-color: #EBC3C4;
+        }
+        .slide-header-green
+        {
+            background-color: #DFE9BE;
+        }
+        .slide-header-blue{
+            background-color: #D0E4E8;
+        }
+        .slide-learn-more {
+            padding-right: 1rem;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
