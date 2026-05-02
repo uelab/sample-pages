@@ -1,0 +1,57 @@
+<article class="row pub-row-vert-layout">
+
+    <div class="col-1 pub-thumbnail">
+      <a href="{{ include.news-item.full-coverage-link }}" target="_blank" class="pub-thumbnail-link">
+          <img 
+            src="{{ '/assets/img/' | append: include.news-item.image | relative_url }}"
+            alt="{{include.news-item.title}}" 
+            class="pub-thumbnail-image img-responsive">
+      </a>
+    </div>
+  
+    <div class="col pub-info">
+
+        <!-- Title -->
+        <a href="{{ include.news-item.full-coverage-link }}" target="_blank">
+            <h3 class="artifact-title pub-title">{{include.news-item.title}}</h3>
+        </a>
+
+        <!-- Authors -->
+        <p class="pub-authors line-clamp">
+            {% assign lastauthor = include.news-item.lab-members | last %}
+            {% for labmemberid in include.news-item.lab-members %}
+            {% assign labmember = site.people | where_exp: "item", "item.slug == labmemberid" | first %}
+            {% if labmember != nil %}
+            <a href="{{ labmember.url | relative_url }}">
+                {{labmember.name}}
+            </a>{% if labmemberid != lastauthor %},{% else %}{% endif %}
+            {% else %}
+            {{labmemberid}}{% if labmemberid != lastauthor %},{% else %}{% endif %}
+            {% endif %}
+
+            {% endfor %}
+        </p>
+
+        <!-- Venue, acceptance rate, and award -->
+        <p class="pub-stats line-clamp-one-line">
+
+            <span class="pub-venue">
+                {{include.news-item.short-description}}.
+            </span>
+
+        </p>
+
+        <!-- Download links in different formats -->
+        <p>
+            <span class="pub-download-links">
+                <a href="{{ include.news-item.full-coverage-link }}" target="_blank">News Coverage</a>
+
+                {% if include.news-item.video != nil %}
+                | <a href="{{include.news-item.video}}" target="_blank">video</a>
+                {% endif %}
+
+            </span>
+        </p>
+    </div>
+
+</article>

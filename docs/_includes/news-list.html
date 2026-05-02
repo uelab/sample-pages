@@ -1,0 +1,25 @@
+{% assign recent_news = include.values | sort: "year" | reverse %}
+
+<!-- Obtain list of years papers were published -->
+{% assign news_years = recent_news | map: "year" %} 
+{% assign news_years = news_years | uniq %}
+
+<div class="container">
+
+    <h1 class="section-header">{{ include.header }}</h1>
+
+    <!-- Print each year and the papers published in that year -->
+    {% for year in news_years %}
+        <h2>{{year}}</h2>
+
+        {% assign news_in_year = recent_news | where: "year", year %}
+
+        {% for news in news_in_year %}
+            <div >
+                {% include news-item-list-item.html news-item=news %}
+            </div>
+        {% endfor %}
+
+    {% endfor %}
+
+</div>

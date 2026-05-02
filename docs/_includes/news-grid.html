@@ -9,14 +9,14 @@
 
         {% for value in news_items limit:include.limit %}
         <div class="col-lg-3 d-flex justify-content-center">
-            {% include news-item-card.html news-item=value %} 
+            {% include news-item-card.html news-item=value %}
         </div>
         {% endfor %}
     </div>
     {% if include.landing %}
     <div class="row">
         <div class="col-lg-12 py-2 px-5 d-flex justify-content-end">
-            <a href="{{ "/research-areas.html" | relative_url }}">See All Research Areas></a>
+            <a href="{{ "/news.html" | relative_url }}">See All News></a>
         </div>
       </div>
     {% endif %}
