@@ -9,7 +9,7 @@
 
         {% for value in news_items limit:include.limit %}
         <div class="col-lg-3 d-flex justify-content-center">
-            {% include news-item-card.html news-item=value %}
+            {% include news-item-short-list-item.html news-item=value %}
         </div>
         {% endfor %}
     </div>

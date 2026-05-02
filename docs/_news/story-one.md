@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: news-item
 date: 2025-03-01
 title: "test"
 short-description: test description

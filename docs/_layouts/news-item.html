@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% assign news-item = page %}
+
+<div class="container-fluid p-5 bg-info text-white">
+    <h1>{{ news-item.title }}</h1>
+</div>
+
+<div class="col pub-info">
+
+    <!-- Authors -->
+    <p class="pub-authors line-clamp">
+        {% assign lastauthor = news-item.lab-members | last %}
+        {% for labmemberid in news-item.lab-members %}
+        {% assign labmember = site.people | where_exp: "item", "item.slug == labmemberid" | first %}
+        {% if labmember != nil %}
+        <a href="{{ labmember.url | relative_url }}">
+            {{labmember.name}}
+        </a>{% if labmemberid != lastauthor %},{% else %}{% endif %}
+        {% else %}
+        {{labmemberid}}{% if labmemberid != lastauthor %},{% else %}{% endif %}
+        {% endif %}
+
+        {% endfor %}
+    </p>
+
+    <!-- Description -->
+    <p class="pub-stats line-clamp-one-line">
+
+        <span class="pub-venue">
+            {{news-item.short-description}}.
+        </span>
+
+    </p>
+
+    <!-- Download links in different formats -->
+    <p>
+        <span class="pub-download-links">
+            <a href="{{ news-item.full-coverage-link }}" target="_blank">News Coverage</a>
+
+            {% if news-item.video != nil %}
+            | <a href="{{news-item.video}}" target="_blank">video</a>
+            {% endif %}
+
+        </span>
+    </p>
+</div>

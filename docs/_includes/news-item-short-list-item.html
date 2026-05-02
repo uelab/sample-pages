@@ -1,0 +1,40 @@
+<article class="row pub-row-vert-layout">
+
+    <div class="col-1 pub-thumbnail">
+      <a href="{{ include.news-item.url | relative_url }}" target="_blank" class="pub-thumbnail-link">
+          <img 
+            src="{{ '/assets/img/' | append: include.news-item.image | relative_url }}"
+            alt="{{include.news-item.title}}" 
+            class="pub-thumbnail-image img-responsive">
+      </a>
+    </div>
+  
+    <div class="col pub-info">
+
+       
+
+        <!-- Title -->
+        <p class="pub-stats line-clamp-one-line">
+
+            <span class="pub-venue">
+                <a href="{{ include.news-item.url | relative_url }}" target="_blank">
+                    {{include.news-item.title}}
+                </a>
+            </span>
+
+        </p>
+
+        <!-- Download links in different formats -->
+        <p>
+            <span class="pub-download-links">
+                <a href="{{ include.news-item.full-coverage-link }}" target="_blank">News Coverage</a>
+
+                {% if include.news-item.video != nil %}
+                | <a href="{{include.news-item.video}}" target="_blank">video</a>
+                {% endif %}
+
+            </span>
+        </p>
+    </div>
+
+</article>
