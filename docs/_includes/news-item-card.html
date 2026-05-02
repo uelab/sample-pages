@@ -1,0 +1,11 @@
+{% assign news-item = include.news-item %}
+{% capture timeline %} {{ news-item.date | date: "%Y" }} {% endcapture %}
+
+<div class="card p-1 m-1" style="width: 22rem;">
+  <a href="{{ news-item.url | relative_url }}"><img class="card-img-top img-fluid" style="height: 12rem;" src="{{ '/assets/img/news-item.image' | relative_url }}"  alt="A purple square."></a>
+    <div class="card-body">
+        <h5 class="card-title">{{ include.news-item.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ timeline }}</h6>
+        <a href="{{ include.news-item.url | relative_url }}" class="card-link">Learn more</a>
+      </div>
+</div>

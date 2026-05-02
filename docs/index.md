@@ -9,6 +9,6 @@ title: Home | User Empowerment Lab
 
 {% include paper-grid.html header="Recent Papers" values=site.publications limit=3 landing=true %}
 
-{% comment %} TODO: Replace below with better grids {% endcomment %}
-{% include card-grid.html section="research-areas" values=site.research-areas %}
-{% include card-grid.html section="publications" values=site.publications %}
+{% include news-grid.html header="Recent News" values=site.news limit=3 landing=true %}
+
+
